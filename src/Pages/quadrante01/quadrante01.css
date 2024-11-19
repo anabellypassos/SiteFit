@@ -1,0 +1,41 @@
+
+    
+    
+    .fundo{
+        display: flex;
+        
+    }
+    
+    .app-bar{
+        display: flex;
+        color: beige;
+        position: fixed;
+        gap: 10px;
+        left: 80px;
+        top: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        font-size: 12px;
+ }
+    .logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        position: relative;
+        top: 10px;
+    }
+
+    
+
+        .Texto_principal{
+            color: beige;
+            font-size: 62.9px;
+
+        }
+
+            .pargrafo_quadrante1{
+                color: beige;
+                font-size: 21.5px;
+                
+
+            }
