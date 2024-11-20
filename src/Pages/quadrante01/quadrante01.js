@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from '../../images/990a7aff-7fd0-4f0d-a789-ce13e7b72efb.png';
 import '../quadrante01/quadrante01.css';
-
-
+import fundocolor from '../../images/Colorful-Holographic-Gradient-Multicolor-Blurred-Background-Design-63936110-1.png';
+import celular from '../../images/celular.png';
 
 const Quadrante01 = () => {
     
@@ -28,7 +28,12 @@ const Quadrante01 = () => {
 <div> vida diária com exercícios curtos e fáceis</div>
  
   </p>
+ <button className='infobutton'>SAIBA MAIS</button>
+</div>
 
+<div className='telacelular'>
+<img className='fundocolor' src={fundocolor} alt="fundocolor" />
+<img className='celular' src={celular} alt='celuler'></img>
 </div>
     </div>
   );
