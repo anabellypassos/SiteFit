@@ -1,0 +1,79 @@
+.container {
+    background-color: #2B1821;
+    margin-top: 1313px;
+    background-size: cover;
+    /* Faz a imagem cobrir toda a área */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    position: absolute;
+    background-position: center;
+    /* Centraliza a imagem */
+    width: 100%;
+    /* Garante que o elemento ocupe 100% da largura */
+    height: 100vh;
+    /* Define a altura como 100% da altura da janela */
+}
+
+.title {
+    color: #FD288D;
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+    top: 10%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.imagens {
+
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    height: 60%;
+
+
+}
+
+.quadrantes {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.container1 {
+    color: white;
+    box-sizing: border-box;
+    width: 25%;
+    border: solid gray 2px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.container2 {
+    color: white;
+    box-sizing: border-box;
+    width: 25%;
+    border: solid gray 2px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.container3 {
+
+    box-sizing: border-box;
+    width: 25%;
+    border: solid gray 2px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}

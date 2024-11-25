@@ -1,6 +1,6 @@
 .quadro2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../../images/fundo.png");
-  margin-top: -700px;
+  margin-top: 700px;
   background-size: cover;
   /* Faz a imagem cobrir toda a área */
   background-repeat: no-repeat;
