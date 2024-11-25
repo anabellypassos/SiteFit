@@ -3,7 +3,9 @@ import logo from '../../images/990a7aff-7fd0-4f0d-a789-ce13e7b72efb.png';
 import '../quadrante01/quadrante01.css';
 import fundocolor from '../../images/Colorful-Holographic-Gradient-Multicolor-Blurred-Background-Design-63936110-1.png';
 import celular from '../../images/celular.png';
-
+import abdomen from '../../images/imagemcelular/abdomen.png';
+import alter from '../../images/imagemcelular/alter.png';
+import mulher from '../../images/imagemcelular/mulher.png';
 const Quadrante01 = () => {
     
   return (
@@ -33,7 +35,12 @@ const Quadrante01 = () => {
 
 <div className='telacelular'>
 <img className='fundocolor' src={fundocolor} alt="fundocolor" />
+<img className = 'abdomen' src={abdomen} alt='abdomen'></img>
+<img className='alter' src={alter} alt='alter'></img>
+<img className='mulher' src={mulher} alt='mulher'></img>
+
 <img className='celular' src={celular} alt='celuler'></img>
+
 </div>
     </div>
   );
