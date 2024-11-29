@@ -1,0 +1,8 @@
+.quadrante06{
+    
+        background-color: #2B1821;
+        position: relative; /* Alterado de absolute para relative */
+        margin-top: 3900px; /* Use margens para ajustar a posição */
+    
+    }
+    

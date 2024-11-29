@@ -1,0 +1,77 @@
+.quadrante05 {
+    background-color: black;
+    position: relative; /* Alterado de absolute para relative */
+    margin-top: 2900px; /* Use margens para ajustar a posição */
+
+}
+
+
+    .fundocolorido{
+        position: absolute;
+        top: -200px;
+        width: 400px;
+        height: 400px;
+        left: 100px;
+        transform: rotate(30deg);
+        /* Gira a imagem 20 graus */
+        filter: blur(9px);
+        /* Aplica um efeito de desfoque */
+        overflow: hidden;
+    
+    }
+   .mulherbebendoagua{
+    position: absolute;
+    filter: drop-shadow(0 0 1rem rgb(255, 255, 255));
+    top: -200px;
+    height: 500px;
+    left: 50px;
+
+
+   }
+
+   .container5 {
+    top: -200px;
+    position: absolute;
+    left: 700px;
+    background-color: aliceblue;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+
+    }
+   
+    .dicatitulo{
+        top: 50px;
+        position: relative;
+        color:#FD288D;
+        text-align: center;
+        font-size: 36px;
+        margin: 0; /* Remove margens padrão */
+        line-height: 1; /* Ajusta o espaçamento vertical entre as linhas */
+        font-family: 'Open Sans', sans-serif;
+    
+    }
+    .dicaparagrafo{
+    top: 70px;
+    position: relative;
+    color:#000000;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; /* Remove margens padrão */
+    }
+    .btnsaibamais{
+        top: 110px;
+        cursor: pointer;
+        position: relative;
+       left: 20%;
+        width: 250px;
+        height: 50px;
+        border-radius: 20px;
+        background-color: #fd288d;
+        font-family: "DM Sans", sans-serif;
+        color: azure;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 5px;
+    }
