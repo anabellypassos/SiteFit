@@ -1,8 +1,121 @@
-.quadrante06{
-    
-        background-color: #2B1821;
-        position: relative; /* Alterado de absolute para relative */
-        margin-top: 3900px; /* Use margens para ajustar a posição */
-    
-    }
-    
+.quadrante06 {
+    background-color: #2B1821;
+    margin-top: 300px;
+    /* Use margens para ajustar a posição */
+    width: 100%;
+    background-size: cover;
+    /* Faz a imagem cobrir toda a área */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    position: absolute;
+    background-position: center;
+    /* Centraliza a imagem */
+    width: 100%;
+    /* Garante que o elemento ocupe 100% da largura */
+    height: 100vh;
+    /* Define a altura como 100% da altura da janela */
+
+
+}
+
+.title6 {
+    color: #FD288D;
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+    top: 10%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.quadrantes6 {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+.quadrantecontainer1 {
+    color: white;
+    box-sizing: border-box;
+    width: 25%;
+    border: solid gray 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.quadrantecontainer2 {
+    color: white;
+    box-sizing: border-box;
+    width: 25%;
+    border: solid gray 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.quadrantecontainer3 {
+    color: white;
+    box-sizing: border-box;
+    width: 25%;
+    border: solid gray 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.depoimento1 {
+    margin-top: 50px;
+    text-align: start;
+    margin-left: 15%;   
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.depoimento2 {
+    margin-top: 50px;
+    text-align: start;
+    margin-left: 15%;   
+     font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.depoimento3 {
+    margin-top: 50px;
+    text-align: start;
+    margin-left: 15%;   
+        font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pessoa1 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: start;
+   
+    font-size: 17px;
+    color: #FD288D;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.pessoa2 {
+    margin-top: 50px;
+    text-align: start;
+
+    font-size: 17px;
+    color: #FD288D;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.pessoa3 {
+    margin-top: 50px;
+    text-align: start;
+ 
+    font-size: 17px;
+    color: #FD288D;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
