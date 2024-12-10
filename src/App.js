@@ -5,6 +5,7 @@ import Quadrante3 from './Pages/quadrante3/quadrante3';
 import Quadrante04 from './Pages/quadrante04/quadrante04';
 import Quadrante05 from './Pages/quadrante05/quadrante05';
 import Quadrante06 from './Pages/quadrante06/quadrante06';
+import Quadrante07 from './Pages/quadrante07/quadrante07';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Quadrante04 />
       <Quadrante05 />
       <Quadrante06/>
+      <Quadrante07/>
     </>
   );
 }
