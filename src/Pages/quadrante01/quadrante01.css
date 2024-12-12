@@ -10,6 +10,7 @@ body{
 }
 
 .app-bar {
+    cursor: pointer;
     display: flex;
     color: beige;
     position: absolute;
@@ -23,6 +24,7 @@ body{
 }
 
 .logo {
+    cursor: pointer;
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -92,29 +94,15 @@ body{
     left: 50%;
 }
 
-.abdomen{
-    position: absolute;
-    top: 60px;
-    width: 250px;
-    height: 495px;
-    left: 62%;
-    border-radius: 10px;
-}
-.alter{
-    position: absolute;
-    top: 60px;
-    width: 250px;
-    height: 495px;
-    left: 62%;
-    border-radius: 10px;
-}
 
-.mulher{
+
+.slider-image {
+   
+    transition: opacity 0.5s ease-in-out;
     position: absolute;
     top: 60px;
     width: 250px;
     height: 495px;
     left: 62%;
     border-radius: 10px;
-}
-
+  }
