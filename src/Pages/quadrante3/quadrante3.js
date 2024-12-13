@@ -20,23 +20,32 @@ const Quadrante3 = () => {
       <div className='quadrantes'>
 
         <div className='container1'>
-          <p>Escreva uma característica <br/>
-            essencial do aplicativo que <br/>
-            está sendo anunciado.
+          <p>Acompanhamento em Tempo Real <br/>
+          Receba suporte profissional durante <br/>
+           os treinos, garantindo a execução  <br/>
+           correta dos exercícios e maior  <br/>
+           segurança no seu progresso.<br/>
+           
             </p>
         </div>
 
         <div className='container2'>
-        <p>Escreva uma característica <br/>
-            essencial do aplicativo que <br/>
-            está sendo anunciado.
+        <p>Treinos Personalizados <br/>
+         Planos de exercícios adaptados<br/>
+          ao seu nível de condicionamento físico,<br/>
+           objetivos pessoais e rotina diária, para<br/>
+            resultados eficientes e duradouros. <br/>
+            
             </p>
 
         </div>
         <div className='container3'>
-        <p>Escreva uma característica <br/>
-            essencial do aplicativo que <br/>
-            está sendo anunciado.
+        <p>Flexibilidade e Conforto <br/>
+          Realize seus treinos em casa, no horário que<br/>
+         preferir, com orientações simples e práticas<br/>
+          que se encaixam no seu dia a dia.
+            <br/>
+         
             </p>
 
         </div>

@@ -6,23 +6,25 @@ import celular from '../../images/celular.png';
 import abdomen from '../../images/imagemcelular/abdomen.png';
 import alter from '../../images/imagemcelular/alter.png';
 import mulher from '../../images/imagemcelular/mulher.png';
+import acesasorios from '../../Pages/quadrante01/imageq1/images__1_-removebg-preview.png'
+import treinoemcasa from '../quadrante01/imageq1/exercicios-fisico-em-casa-treino-04.png'
 const Quadrante01 = () => {
 
-   // Estado para rastrear a imagem atualmente exibida
-   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  // Estado para rastrear a imagem atualmente exibida
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-   // Lista de imagens
-   const images = [abdomen, alter, mulher];
- 
-   // Mudar a imagem automaticamente a cada 3 segundos
-   useEffect(() => {
-     const interval = setInterval(() => {
-       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-     }, 3000); // Troca a cada 3 segundos
- 
-     // Limpa o intervalo quando o componente é desmontado
-     return () => clearInterval(interval);
-   }, [images.length]);
+  // Lista de imagens
+  const images = [abdomen, alter, mulher, treinoemcasa];
+
+  // Mudar a imagem automaticamente a cada 3 segundos
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 3000); // Troca a cada 3 segundos
+
+    // Limpa o intervalo quando o componente é desmontado
+    return () => clearInterval(interval);
+  }, [images.length]);
 
   return (
     <div className='fundo'>
@@ -51,12 +53,15 @@ const Quadrante01 = () => {
 
       <div className='telacelular'>
         <img className='slider-image'
-        src={images[currentImageIndex]}
-        alt={`Slider${currentImageIndex}`}
-        
+          src={images[currentImageIndex]}
+          alt={`Slider${currentImageIndex}`}
+
         />
-      
-        <img className='celular' src={celular} alt='celuler'></img>
+        <img className='acesasorios' src={acesasorios} alt='acesasorios'></img>
+        < div className='borda'> 
+          <img className='celular' src={celular} alt='celuler'></img>
+
+        </div>
 
       </div>
     </div>

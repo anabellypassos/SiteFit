@@ -10,16 +10,17 @@
     /* Centraliza a imagem */
     width: 100%;
     /* Garante que o elemento ocupe 100% da largura */
-    height: 100vh;
-    /* Define a altura como 100% da altura da janela */
+    height: 2000px; /* Alterado para uma altura maior */
 }
+
+
 
 .title {
     color: #FD288D;
     position: relative;
     text-align: center;
     font-size: 36px;
-    top: 10%;
+    top: 4%;
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -29,7 +30,7 @@
     display: flex;
     justify-content: center;
     gap: 200px;
-    height: 60%;
+    height: 20%;
 
 
 }

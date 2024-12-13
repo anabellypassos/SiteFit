@@ -8,11 +8,11 @@ const Quadrante02 = () => {
         Sobre a </h1>
       <h1 className='titulo'> Viva a Vida</h1>
       <p className='paragrafo'>
-        <p>O que há de especial sobre o seu produto, empresa ou serviço?</p>
-        <p>Use este espaço para destacar as coisas que diferenciam você da </p>
-        <p>concorrência, seja uma característica especial, uma filosofia única </p>
-        <p>ou prêmios e reconhecimentos recebidos. Pense nisso como sua</p>
-        <p>abordagem para chamar a atenção do leitor.</p>
+        <p> O Plano Viva a Vida é a solução ideal para quem deseja cuidar da saúde </p>
+        <p>e manter a forma física sem sair de casa. Nossa consultoria de treino </p> 
+         <p>online foi pensada para atender às suas necessidades de forma prática </p>
+        <p>e eficiente, proporcionando conforto e flexibilidade.</p> 
+        
       </p>
 
     </section>
