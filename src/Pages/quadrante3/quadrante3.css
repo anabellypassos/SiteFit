@@ -16,7 +16,7 @@
 
 
 .title {
-    color: #FD288D;
+    color: #ececec;
     position: relative;
     text-align: center;
     font-size: 36px;
@@ -26,20 +26,24 @@
 }
 
 .imagens {
-
+   
     display: flex;
     justify-content: center;
     gap: 200px;
     height: 20%;
+   
 
 
 }
+
+
 
 .quadrantes {
     display: flex;
     justify-content: center;
     gap: 70px;
 }
+
 
 .container1 {
     color: white;
@@ -63,6 +67,7 @@
 
 .container3 {
 
+    color: white;
     box-sizing: border-box;
     width: 25%;
     border: solid gray 2px;
@@ -72,9 +77,26 @@
 }
 
 p {
-    text-align: center;
+    text-align:center;
     font-size: 16px;
     color: white;
     font-family: 'Open Sans', sans-serif;
 
 }
+.quadrantes{
+    animation-duration: 5s;
+    animation-name:slidein;
+    animation-iteration-count: initial;
+}
+@keyframes slidein {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+    
