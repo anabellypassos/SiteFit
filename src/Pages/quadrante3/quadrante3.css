@@ -26,7 +26,6 @@
 }
 
 .imagens {
-   
     display: flex;
     justify-content: center;
     gap: 200px;
@@ -100,3 +99,10 @@ p {
   }
 }
     
+@media (min-width: 320px) and (max-width: 568px) {
+    .container {
+        margin-top:350%;
+       
+    }
+    
+  }

@@ -40,3 +40,20 @@
   line-height: 0.5; /* Ajusta o espaçamento vertical entre as linhas */
 
 }
+
+@media (min-width: 320px) and (max-width: 568px) {
+  .quadro2 {
+    margin-top: 250%;
+    
+  
+}
+.paragrafo {
+  top: 30%;
+  position: relative;
+  font-size: 25px;
+  line-height: 1;
+  margin:5% ;
+  
+}
+
+}

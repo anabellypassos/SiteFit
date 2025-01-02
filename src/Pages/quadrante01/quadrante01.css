@@ -5,16 +5,16 @@ body{
     background-color: black;
     display: flex;
     overflow: auto;
-
+    overflow-x: hidden; /* Remove a rolagem horizontal */
 
 }
 
 .app-bar {
+
     cursor: pointer;
     display: flex;
     color: beige;
     position: absolute;
-    
     gap: 10px;
     left: 80px;
     top: 30px;
@@ -71,21 +71,7 @@ body{
 
 }
 
-.fundocolor {
-    position: absolute;
-    top: 150px;
-    width: 400px;
-    height: 400px;
-    left: 55%;
-    transform: rotate(30deg);
-    /* Gira a imagem 20 graus */
-    filter: blur(9px);
-    /* Aplica um efeito de desfoque */
-    overflow: hidden;
 
-
-
-}
 
 .celular {
     filter: drop-shadow(0 0 1rem rgb(238, 237, 236));
@@ -172,4 +158,25 @@ body{
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 568px) {
+    .celular {
+        position: absolute;
+        top: 130%;
+        width: 480px;
+        height: 490px;
+        left: -2%;
+    }
+    
+    .slider-image {
+        position: absolute; /* Certifique-se de que o estilo de posicionamento está declarado */
+        top: 138%;
+        width: 210px;
+        height: 410px;
+        left: 25%;
+        border-radius: 10px;
+    }
 }

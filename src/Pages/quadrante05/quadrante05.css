@@ -1,14 +1,14 @@
 .quadrante05 {
     background-color: black;
     position: relative; /* Alterado de absolute para relative */
-    margin-top: 2900px; /* Use margens para ajustar a posição */
+    margin-top: 2930px; /* Use margens para ajustar a posição */
 
 }
 
 
     .fundocolorido{
         position: absolute;
-        top: -200px;
+        top: -100px;
         width: 400px;
         height: 400px;
         left: 100px;
