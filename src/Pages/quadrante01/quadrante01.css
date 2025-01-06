@@ -164,19 +164,11 @@ body{
 
 @media (min-width: 320px) and (max-width: 568px) {
     .celular {
-        position: absolute;
-        top: 130%;
-        width: 480px;
-        height: 490px;
-        left: -2%;
+        display: none;
+       
     }
     
     .slider-image {
-        position: absolute; /* Certifique-se de que o estilo de posicionamento está declarado */
-        top: 138%;
-        width: 210px;
-        height: 410px;
-        left: 25%;
-        border-radius: 10px;
+       display: none;
     }
 }

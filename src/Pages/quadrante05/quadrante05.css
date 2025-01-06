@@ -3,6 +3,9 @@
     position: relative; /* Alterado de absolute para relative */
     margin-top: 2930px; /* Use margens para ajustar a posição */
 
+
+
+
 }
 
 
@@ -75,3 +78,21 @@
         font-weight: 600;
         letter-spacing: 5px;
     }
+    @media (min-width: 320px) and (max-width: 568px) {
+        .fundocolorido{
+            display: none;
+        
+        }
+       .mulherbebendoagua{
+        display: none;
+
+    
+       }
+       .container5 {
+        position: absolute;
+        left: auto;
+     margin-left: 40px;      
+        
+        }
+    }
+    

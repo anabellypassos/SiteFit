@@ -101,8 +101,50 @@ p {
     
 @media (min-width: 320px) and (max-width: 568px) {
     .container {
-        margin-top:350%;
+        margin-top:245%;
        
+    }
+    .imagens {
+        display: none;
+       
+    
+    
+    }
+    .quadrantes {
+       
+        flex-direction: column;
+      
+    }
+    .container1 {
+        margin-top: 15%;
+        width: 80%;
+        margin-left: 50px;
+        margin-right: 10px;
+    
+    }
+    
+    .container2 {
+        
+        width: 80%;
+        margin-left: 50px;
+        margin-right: 10px
+    
+    }
+    
+    .container3 {
+    
+        width: 80%;
+        margin-left: 50px;
+        margin-right: 10px
+    
+    }
+    
+    p {
+        text-align:center;
+        font-size: 16px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    
     }
     
   }
