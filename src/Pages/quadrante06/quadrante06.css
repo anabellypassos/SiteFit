@@ -1,8 +1,6 @@
 .quadrante06 {
     background-color: #2B1821;
-    margin-top: 300px;
-    /* Use margens para ajustar a posição */
-    width: 100%;
+    margin-top: 253px;
     background-size: cover;
     /* Faz a imagem cobrir toda a área */
     background-repeat: no-repeat;
@@ -12,9 +10,7 @@
     /* Centraliza a imagem */
     width: 100%;
     /* Garante que o elemento ocupe 100% da largura */
-    height: 100vh;
-    /* Define a altura como 100% da altura da janela */
-
+    height: 2000px; /* Alterado para uma altura maior */
 
 }
 
@@ -23,7 +19,7 @@
     position: relative;
     text-align: center;
     font-size: 36px;
-    top: 10%;
+    top: 1%;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -119,3 +115,40 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
+@media (min-width: 320px) and (max-width: 568px) {
+    .quadrante06 {
+        margin-top: 250px;
+ 
+    
+    }
+    
+    .quadrantes6 {
+        
+       flex-direction: column;
+        
+      
+    
+    }
+    .quadrantecontainer1 {
+        margin-top: 50%;
+        width: 80%;
+        margin-left: 50px;
+        margin-right: 10px;
+    
+    }
+    
+    .quadrantecontainer2 {
+        
+        width: 80%;
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    
+    .quadrantecontainer3 {
+    
+        width: 80%;
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    
+  }
