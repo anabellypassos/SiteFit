@@ -1,11 +1,9 @@
-
-
-
-body{
+body {
     background-color: black;
     display: flex;
     overflow: auto;
-    overflow-x: hidden; /* Remove a rolagem horizontal */
+    overflow-x: hidden;
+    /* Remove a rolagem horizontal */
 
 }
 
@@ -87,7 +85,7 @@ body{
 
 
 .slider-image {
-   
+
     transition: opacity 0.5s ease-in-out;
     position: absolute;
     top: 60px;
@@ -95,17 +93,24 @@ body{
     height: 495px;
     left: 62%;
     border-radius: 10px;
-  }
-  .acesasorios{
-    margin: 0; /* Remove espaçamentos extras */
+}
+
+.acesasorios {
+    margin: 0;
+    /* Remove espaçamentos extras */
     text-align: center;
-    position: absolute; /* Permite controle total da posição */
+    position: absolute;
+    /* Permite controle total da posição */
     height: 100%;
     align-items: end;
-    top: 65%; /* Centraliza verticalmente */
-    left: 85%; /* Centraliza horizontalmente */
-    transform: translate(-50%, -50%); /* Ajusta o deslocamento devido ao `top` e `left` */
-        z-index: -1; /* Envia o elemento para trás */
+    top: 65%;
+    /* Centraliza verticalmente */
+    left: 85%;
+    /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%);
+    /* Ajusta o deslocamento devido ao `top` e `left` */
+    z-index: -1;
+    /* Envia o elemento para trás */
 }
 
 
@@ -115,10 +120,10 @@ body{
 
 .infobutton:before {
     content: '';
-    background: linear-gradient(45deg,  #ff00c8, #ffffff);
+    background: linear-gradient(45deg, #ff00c8, #ffffff);
     position: absolute;
     top: -2px;
-    left:-2px;
+    left: -2px;
     background-size: 400%;
     z-index: -1;
     filter: blur(5px);
@@ -155,20 +160,416 @@ body{
 }
 
 @keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
 }
 
 
+/*RESPONSIVIDADE*/
 
-@media (min-width: 320px) and (max-width: 568px) {
+@media (min-width: 320px) and (max-width: 558px) {
+    .app-bar {
+        font-size: 10px;
+        position: absolute;
+        margin-left: -50px;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .quadrante1 {
+        position: absolute;
+        left: 60px;
+        top: 100px;
+
+    }
+
+    .Texto_principal {
+
+        font-size: 30px;
+
+    }
+
+    .pargrafo_quadrante1 {
+        font-size: 12px;
+        text-align: start;
+
+    }
+
+    .infobutton {
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        margin-top: 20px;
+
+    }
+
+    .slider-image,
+    .acesasorios,
     .celular {
         display: none;
+    }
+
+}
+
+
+@media (min-width: 558px) and (max-width: 573px) {
+    .slider-image,
+    .celular {
+        display: none;
+    }
+    .app-bar {
+        font-size: 15px;
+        position: fixed;
+        margin-left: -40px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .quadrante1 {
+        position: absolute;
+        left: 10%;
+        top: 100px;
+
+    }
+
+    .Texto_principal {
+
+        font-size: 60px;
+
+    }
+
+    .pargrafo_quadrante1 {
+        font-size:17px;
+        text-align: start;
+
+    }
+
+    .infobutton {
+        width: 250px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        margin-top: 20px;
+
+    }
+    .acesasorios{
+        margin: 0;
+        /* Remove espaçamentos extras */
+        text-align: center;
+        position: absolute;
+        /* Permite controle total da posição */
+        height: 95%;
+        align-items: end;
+        top: 79%;
+        /* Centraliza verticalmente */
+        left:115%;
+     
+    }
+}
+@media (min-width: 558px) and (max-width: 581px) {
+    .slider-image,
+    .celular {
+        display: none;
+    }
+    .app-bar {
+        font-size: 15px;
+        position: fixed;
+        margin-left: -40px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .quadrante1 {
+        position: absolute;
+        left: 10%;
+        top: 100px;
+
+    }
+
+    .Texto_principal {
+
+        font-size: 60px;
+
+    }
+
+    .pargrafo_quadrante1 {
+        font-size:17px;
+        text-align: start;
+
+    }
+
+    .infobutton {
+        width: 250px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 5px;
+        margin-top: 20px;
+
+    }
+    .acesasorios{
+        margin: 0;
+        /* Remove espaçamentos extras */
+        text-align: center;
+        position: absolute;
+        /* Permite controle total da posição */
+        height: 95%;
+        align-items: end;
+        top: 79%;
+        /* Centraliza verticalmente */
+        left:112%;
+     
+    }
+}
+@media (min-width: 558px) and (max-width:768px) {
+  
+    .app-bar {
+        font-size: 10px;
+    }
+    
+    .logo {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .quadrante1 {
+        position: absolute;
+        left: 80px;
+        top: 100px;
+    
+    }
+    
+    .Texto_principal {
+       
+        font-size: 42.9px;
+    
+    }
+    
+    .pargrafo_quadrante1 {
+        font-size: 15.5px;
+  
+    
+    
+    }
+    
+    .infobutton {
+    
+      margin-top: 20%;
+    
+    }
+    
+    
+    
+    .celular {
+        filter: drop-shadow(0 0 1rem rgb(238, 237, 236));
+        box-shadow: none;
+    
+        top:100px;
+        width: 480px;
+        height: 490px;
        
     }
     
+    
     .slider-image {
-       display: none;
+    
+        transition: opacity 0.5s ease-in-out;
+        position: absolute;
+        top: 140px;
+        width: 210px;
+        height: 413px;
+        margin-left: 4%;
+        border-radius: 10px;
     }
+    
+    .acesasorios {
+      
+        text-align: center;
+        position: absolute;
+        /* Permite controle total da posição */
+        height: 100%;
+        align-items: end;
+        top: 80%;
+        /* Centraliza verticalmente */
+        left: 84%;
+       
+    }
+    
+    
+    
+}
+@media (min-width: 558px) and (max-width:1024px) {
+  
+    .app-bar {
+        font-size: 10px;
+    }
+    
+    .logo {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .quadrante1 {
+        position: absolute;
+        left: 80px;
+        top: 100px;
+    
+    }
+    
+    .Texto_principal {
+       
+        font-size: 52.9px;
+    
+    }
+    
+    .pargrafo_quadrante1 {
+        font-size: 15.5px;
+  
+    
+    
+    }
+    
+    .infobutton {
+    
+      margin-top: 20%;
+    
+    }
+    
+    
+    
+    .celular {
+        filter: drop-shadow(0 0 1rem rgb(238, 237, 236));
+        box-shadow: none;
+    
+        top:100px;
+        width: 480px;
+        height: 490px;
+       
+    }
+    
+    
+    
+    
+    .slider-image {
+    
+        transition: opacity 0.5s ease-in-out;
+        position: absolute;
+        top: 140px;
+        width: 210px;
+        height: 413px;
+        left: 63%;
+        border-radius: 16px;
+    }
+    
+    .acesasorios {
+      
+        text-align: center;
+        position: absolute;
+        /* Permite controle total da posição */
+        height: 100%;
+        align-items: end;
+        top: 80%;
+        /* Centraliza verticalmente */
+        left: 84%;
+       
+    }
+    
+    
+    
+}
+
+@media (min-width: 1395px) and (max-width:2560px) {
+    .app-bar {
+        font-size: 20px;
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 1%;
+     }
+    
+    .logo {
+    top: 30px;
+        width: 50px;
+        height: 50px;
+        
+    }
+    
+    .quadrante1 {
+        position: absolute;
+        margin-left: 40%;
+       margin-top: 1%;
+    
+    }
+    
+    .Texto_principal {
+       
+        font-size: 62.9px;
+    
+    }
+    
+    .pargrafo_quadrante1 {
+        font-size: 20.5px;
+    
+    
+    }
+    
+    
+    .celular {
+        filter: drop-shadow(0 0 1rem rgb(238, 237, 236));
+        box-shadow: 1px 1px 1rem rgb(236, 235, 233);
+        position: absolute;
+        margin-top: 2%;
+        width: 580px;
+        height: 590px;
+        left: 70%;
+    }
+    
+    
+    
+    
+    .slider-image {
+    
+        transition: opacity 0.5s ease-in-out;
+        position: absolute;
+        margin-top: 2%;
+        width: 250px;
+        height: 495px;
+        left: 76.5%;
+        border-radius: 10px;
+    }
+    
+    
+    
+    
+    
+   
+  
+    
+    
+    
 }

@@ -10,7 +10,7 @@
     /* Centraliza a imagem */
     width: 100%;
     /* Garante que o elemento ocupe 100% da largura */
-    height: 2000px; /* Alterado para uma altura maior */
+    height: 1000px; /* Alterado para uma altura maior */
 
 }
 
@@ -117,6 +117,11 @@
 }
 @media (min-width: 320px) and (max-width: 568px) {
     .quadrante06 {
+     
+        height: 2000px; /* Alterado para uma altura maior */
+    
+    }
+    .quadrante06 {
         margin-top: 250px;
  
     
@@ -130,7 +135,7 @@
     
     }
     .quadrantecontainer1 {
-        margin-top: 50%;
+        margin-top: 10%;
         width: 80%;
         margin-left: 50px;
         margin-right: 10px;
