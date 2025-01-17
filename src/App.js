@@ -9,15 +9,21 @@ import Quadrante07 from './Pages/quadrante07/quadrante07';
 
 function App() {
   return (
-    <>
-      <Quadrante01 />
+    < div className='quadrantesPages'>
+      <Quadrante01/>
+      
       <Quadrante02 />
+      
       <Quadrante3 />
+      
       <Quadrante04 />
+      
       <Quadrante05 />
+      
       <Quadrante06/>
+      
       <Quadrante07/>
-    </>
+    </div>
   );
 }
 

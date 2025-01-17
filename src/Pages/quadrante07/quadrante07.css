@@ -1,7 +1,7 @@
 .quadro07 {
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../quadrante07/imgfinalquadrante/bacgroundfinal.jpg");
-    margin-top: 940px;
+    margin-top:290%;
     background-size: cover;
     /* Faz a imagem cobrir toda a área */
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
     margin-left: 15%;
     font-size: 36px;
     text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
-    top: 200px;
+    top: 30%;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -89,22 +89,20 @@
     height: 30px;
 }
 
-@media (min-width: 320px) and (max-width: 568px) {
-
+@media (min-width: 320px) and (max-width: 425px) {
     .quadro07 {
-        margin-top: 1840px;
 
+        margin-top: 1750%;
+    
     }
-
-    .telefone {
-
-        margin-top: 40%;
-
-
-
+    .fale_conosco {
+        top: 20%;
+        
     }
-
-
-
-
+    .tel {
+        margin-top: -0,9%;
+    }
+.telefone{
+margin-top: 50%;}
+    
 }

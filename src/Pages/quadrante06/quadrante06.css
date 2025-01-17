@@ -1,6 +1,6 @@
 .quadrante06 {
     background-color: #2B1821;
-    margin-top: 253px;
+    margin-top: 239%;
     background-size: cover;
     /* Faz a imagem cobrir toda a área */
     background-repeat: no-repeat;
@@ -10,7 +10,8 @@
     /* Centraliza a imagem */
     width: 100%;
     /* Garante que o elemento ocupe 100% da largura */
-    height: 1000px; /* Alterado para uma altura maior */
+    height: 1000px;
+    /* Alterado para uma altura maior */
 
 }
 
@@ -61,7 +62,7 @@
 .depoimento1 {
     margin-top: 50px;
     text-align: start;
-    margin-left: 15%;   
+    margin-left: 15%;
     font-size: 16px;
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -70,8 +71,8 @@
 .depoimento2 {
     margin-top: 50px;
     text-align: start;
-    margin-left: 15%;   
-     font-size: 16px;
+    margin-left: 15%;
+    font-size: 16px;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
@@ -79,8 +80,8 @@
 .depoimento3 {
     margin-top: 50px;
     text-align: start;
-    margin-left: 15%;   
-        font-size: 16px;
+    margin-left: 15%;
+    font-size: 16px;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
@@ -89,7 +90,7 @@
     margin-top: 50px;
     margin-bottom: 100px;
     text-align: start;
-   
+
     font-size: 17px;
     color: #FD288D;
     font-family: 'Open Sans', sans-serif;
@@ -109,51 +110,50 @@
 .pessoa3 {
     margin-top: 50px;
     text-align: start;
- 
+
     font-size: 17px;
     color: #FD288D;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
-@media (min-width: 320px) and (max-width: 568px) {
+
+@media (min-width: 320px) and (max-width: 425px) {
     .quadrante06 {
-     
-        height: 2000px; /* Alterado para uma altura maior */
-    
+
+        height: 1800px;
     }
+
     .quadrante06 {
-        margin-top: 250px;
- 
-    
+
+        margin-top: 1190%;
+
+
     }
-    
+
     .quadrantes6 {
-        
-       flex-direction: column;
-        
-      
-    
+        flex-direction: column;
+
     }
     .quadrantecontainer1 {
-        margin-top: 10%;
+        margin-top: 20%;
         width: 80%;
-        margin-left: 50px;
-        margin-right: 10px;
-    
+        margin-left: 30px;
+        margin-right: 10px
     }
     
     .quadrantecontainer2 {
-        
+        margin-top: 20%;
         width: 80%;
-        margin-left: 50px;
-        margin-right: 10px;
+        margin-left: 30px;
+        margin-right: 10px
     }
     
     .quadrantecontainer3 {
-    
+        margin-top: 20%;
         width: 80%;
-        margin-left: 50px;
-        margin-right: 10px;
+        margin-left: 30px;
+        margin-right: 10px
     }
     
-  }
+
+}

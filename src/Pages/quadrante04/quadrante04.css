@@ -1,7 +1,7 @@
 .quadro04 {
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../quadrante04/image/gym-background-z0k3y4mebor64d2d.jpg");
-    margin-top: 2050px;
+    margin-top: 140%;
     background-size: cover;
     /* Faz a imagem cobrir toda a área */
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
     /* Centraliza a imagem */
     width: 100%;
     /* Garante que o elemento ocupe 100% da largura */
-    height: 100vh;
+    height: 100%;
     /* Define a altura como 100% da altura da janela */
 
 }
@@ -57,4 +57,15 @@
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 5px;
+}
+
+/* Responsividade para telas menores */
+@media (min-width: 320px) and (max-width: 425px) {
+  
+    .quadro04 {
+
+        margin-top: 840%;
+       
+    
+    }
 }

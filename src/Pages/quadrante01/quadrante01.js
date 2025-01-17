@@ -28,6 +28,9 @@ const Quadrante01 = () => {
   }, [images.length]);
 
   return (
+    <div className='quadro1page'>
+
+ 
     <div className='fundo'>
 
       <div className='app-bar'>
@@ -65,7 +68,8 @@ const Quadrante01 = () => {
         </div>
 
       </div>
-    </div>
+    </div> 
+      </div>
   );
 }
 

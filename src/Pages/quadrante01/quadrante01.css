@@ -1,9 +1,14 @@
 body {
     background-color: black;
-    display: flex;
     overflow: auto;
+    flex-direction: column;
+    /* Empilha as páginas */
+    margin: 0;
+    /* Remove margens extras */
     overflow-x: hidden;
-    /* Remove a rolagem horizontal */
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+    /* Permite que os itens quebrem linha */
 
 }
 
@@ -24,7 +29,7 @@ body {
 .logo {
     cursor: pointer;
     width: 5%;
-    height:5%;
+    height: 5%;
     border-radius: 100%;
     position: relative;
     top: 10px;
@@ -32,7 +37,7 @@ body {
 
 .quadrante1 {
     position: absolute;
-   margin-left: 10%;
+    margin-left: 10%;
     margin-top: 10%;
 
 }
@@ -78,7 +83,7 @@ body {
     top: 10px;
     width: 40%;
     height: 90%;
-    margin-left:50% ;
+    margin-left: 50%;
 }
 
 
@@ -89,7 +94,8 @@ body {
     position: absolute;
     margin-top: 4%;
     width: 18%;
-    height:77%; /* Em vez de % use vh, se quiser uma altura relativa à altura da janela */
+    height: 77%;
+    /* Em vez de % use vh, se quiser uma altura relativa à altura da janela */
     margin-left: 61%;
     border-radius: 25px;
 }
@@ -175,3 +181,41 @@ body {
 
 /*RESPONSIVIDADE*/
 
+@media (min-width: 320px) and (max-width: 425px) {
+
+    .celular,
+    .slider-image,
+    .acesasorios {
+        display: none;
+    }
+
+    .logo {
+
+        width: 10%;
+        height: 10%;
+
+    }
+
+    .app-bar {
+
+
+        margin-left: 15%;
+
+        font-size: 10px;
+    }
+
+    .Texto_principal {
+
+        font-size: 42.9px;
+
+    }
+
+    .infobutton {
+        width: 80%;
+        margin-top: 10%;
+
+    }
+
+
+
+}

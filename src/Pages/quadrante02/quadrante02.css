@@ -1,62 +1,55 @@
 .quadro2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../../images/fundo.png");
-  margin-top: 700px;
-  background-size: cover;
-  /* Faz a imagem cobrir toda a área */
-  background-repeat: no-repeat;
-  /* Evita repetição da imagem */
-  position:absolute;
-  background-position: center;
-  /* Centraliza a imagem */
-  width:100%;
-  /* Garante que o elemento ocupe 100% da largura */
-  height: 100vh;
-  /* Define a altura como 100% da altura da janela */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/fundo.png");
+  background-size: cover; /* Faz a imagem cobrir toda a área */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-position: center; /* Centraliza a imagem */
+  position: absolute;
+  width: 100%; /* Garante que o elemento ocupe 100% da largura */
+  height: 100vh; /* Define a altura como 100% da altura da janela */
+  overflow: hidden; /* Evita rolagem desnecessária */
+  display: flex; /* Ativa o flexbox */
+  flex-direction: column; /* Alinha itens verticalmente */
+  align-items: center; /* Centraliza conteúdo horizontalmente */
+  justify-content: center; /* Centraliza conteúdo verticalmente */
+  margin-top: 50%;
 }
-
 
 .titulo {
-  text-shadow: rgb(0, 0, 0)  0.1em 0.1em 0.2em;
-  top: 30%;
-  position: relative;
-  color:#e9197a;
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+  color: #e9197a;
   text-align: center;
-  font-size: 32px;
-  margin: 0; /* Remove margens padrão */
-  line-height: 1; /* Ajusta o espaçamento vertical entre as linhas */
+  font-size: 60px; /* Usa unidades responsivas para o tamanho da fonte */
+  line-height: 1.2; /* Ajusta o espaçamento vertical entre as linhas */
   font-family: 'Open Sans', sans-serif;
-
+  margin: 0; /* Remove margens desnecessárias */
 }
 
 .paragrafo {
-  top: 35%;
-  position: relative;
-  color:#FD288D;
-  text-shadow: black  0.1em 0.1em 0.2em;
+  color: #FD288D;
+  text-shadow: black 0.1em 0.1em 0.2em;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px; /* Usa unidades responsivas para o tamanho da fonte */
   font-family: 'Open Sans', sans-serif;
-  margin: 0; /* Remove margens padrão */
-  line-height: 0.5; /* Ajusta o espaçamento vertical entre as linhas */
-
+  line-height: 1.5; /* Ajusta o espaçamento vertical entre as linhas */
+  margin: 20px 0 0; /* Define margem apenas em cima para espaçamento */
 }
 
-@media (min-width: 320px) and (max-width: 568px) {
+/* Responsividade para telas menores */
+@media (min-width: 320px) and (max-width: 425px) {
+  
   .quadro2 {
-    margin-top: 135%;
-    
+    margin-top: 200%; /* Remove margem extra desnecessária */
+    width: 100%; /* Garante que o elemento ocupe 100% da largura */
+    height: 150vh; /* Define a altura como 100% da altura da janela */
+
+  }
+  .titulo{
+    margin-top: -20%;
+  }
+  .paragrafo {
+  
+    top: -10%; /* Ajusta a posição usando unidades relativas à altura da janela */
+
+  }
   
 }
-.paragrafo {
-  top: 30%;
-  position: relative;
-  font-size: 25px;
-  line-height: 1;
-  margin:5% ;
-  
-}
-
-}
-
-
-

@@ -7,7 +7,7 @@ const Quadrante05 = () => {
     <div className='quadrante05'>
      
      <div className='sobreposicao'>
-    <img  className='fundocolorido' src={fundocolorido} alt='fundocolorido'/>   
+   
      <img  className='mulherbebendoagua'src={mulherbebendoagua} alt='mulherbebendoagua'/>
      
 
