@@ -137,3 +137,37 @@
     }
     
 }
+
+@media (min-width: 352px) and (max-width: 425px) {
+    .quadrante05 {
+
+        margin-top: 860%;
+        /* Use margens para ajustar a posição */
+
+
+    }
+   
+    
+}
+@media (min-width: 352px) and (max-width:364px) {
+    .quadrante05 {
+
+        margin-top: 800%;
+        /* Use margens para ajustar a posição */
+
+
+    }
+   
+    
+}
+@media (min-width: 380px)  {
+    .quadrante05 {
+
+        margin-top: 770%;
+        /* Use margens para ajustar a posição */
+
+
+    }
+   
+    
+}

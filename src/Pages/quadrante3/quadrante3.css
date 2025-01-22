@@ -148,3 +148,29 @@ p {
     
     }
 }
+@media (min-width: 362px) and (max-width: 375px) {
+    .container {
+        height: 1000px;
+        /* Alterado para uma altura maior */
+        margin-top: 365%;
+    }
+    .title {
+        color: #ececec;
+        position: relative;
+        text-align: center;
+        font-size: 36px;
+        top: 4%;
+        font-family: 'Open Sans', sans-serif;
+       
+
+    }
+    
+}
+@media (min-width: 352px) and (max-width: 425px) {
+    .container {
+        
+        margin-top: 368%;
+    }
+   
+    
+}

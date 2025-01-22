@@ -219,3 +219,25 @@ body {
 
 
 }
+@media (min-width: 362px) and (max-width: 375px) {
+    .logo {
+        margin-left: -9%;
+       
+
+    }
+
+    .app-bar {
+
+
+        margin-left: 15%;
+
+    }
+
+    .Texto_principal {
+        margin-top: 30%;
+
+    }
+
+    
+
+}

@@ -106,3 +106,47 @@
 margin-top: 50%;}
     
 }
+@media (min-width: 326px) and (max-width: 425px) {
+    .quadro07 {
+
+        margin-top: 1740%;
+    
+    }
+   
+    
+}
+@media (min-width: 352px) and (max-width: 425px) {
+    .quadro07 {
+
+        margin-top: 1440%;
+    
+    }
+   
+    
+}
+@media (min-width: 352px) and (max-width: 364px) {
+    .quadro07 {
+
+        margin-top: 1400%;
+    
+    }
+   
+    
+}
+@media (min-width: 380px)  {
+    .quadro07 {
+
+        margin-top: 1400%;
+    
+    }
+   
+    
+}@media (min-width: 411px)  {
+    .quadro07 {
+
+        margin-top: 1360%;
+    
+    }
+   
+    
+}

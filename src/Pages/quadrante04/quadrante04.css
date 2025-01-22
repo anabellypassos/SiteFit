@@ -69,3 +69,43 @@
     
     }
 }
+@media (min-width: 352px) and (max-width: 425px) {
+    .quadro04 {
+
+        margin-top: 700%;
+       
+    
+    }
+   
+    
+}
+@media (min-width: 352px) and (max-width: 366px) {
+    .quadro04 {
+
+        margin-top: 630%;
+       
+    
+    }
+   
+    
+}
+@media (min-width: 352px) and (max-width: 376px) {
+    .quadro04 {
+
+        margin-top: 630%;
+       
+    
+    }
+   
+    
+}
+@media (min-width: 380px) {
+    .quadro04 {
+
+        margin-top: 630%;
+       
+    
+    }
+   
+    
+}
