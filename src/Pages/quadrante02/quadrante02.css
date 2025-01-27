@@ -95,3 +95,25 @@
   }
   
 }
+
+@media (min-width: 429px) and (max-width:433px) {
+  
+  .quadro2 {
+    margin-top: 200%; /* Remove margem extra desnecessária */
+    width: 100%; /* Garante que o elemento ocupe 100% da largura */
+    height: 150vh; /* Define a altura como 100% da altura da janela */
+
+  }
+  .titulo{
+    margin-top: -20%;
+    font-size: 40px;
+  }
+  .paragrafo {
+  
+    top: -10%; /* Ajusta a posição usando unidades relativas à altura da janela */
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.2; /* Ajusta o espaçamento vertical entre as linhas */
+    margin: 10px 10px 10px; /* Define margem apenas em cima para espaçamento */
+  }
+  
+}

@@ -174,3 +174,56 @@ p {
    
     
 }
+@media (min-width:427px) {
+    .container {
+        margin-top: 468%;
+        width: 220%;
+    }
+
+    .imagens {
+        display: none;
+    
+    }
+    .quadrantes {
+        flex-direction: column;
+    }
+    
+    .container1 {
+        margin-top: 20%;
+        width: 80%;
+        margin-left: 80px;
+        margin-right: 10px;
+    
+    }
+    
+    .container2 {
+        
+        width: 80%;
+        margin-left: 80px;
+        margin-right: 10px
+    
+    }
+    
+    .container3 {
+    
+        width: 80%;
+        margin-left: 80px;
+        margin-right: 10px
+    
+    }
+    
+    p {
+        text-align:center;
+        font-size:30px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    
+    }
+    .title {
+       
+        font-size: 46px;
+    
+    
+    }
+
+}

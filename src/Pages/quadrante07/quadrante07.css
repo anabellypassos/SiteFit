@@ -150,3 +150,13 @@ margin-top: 50%;}
    
     
 }
+
+@media (min-width: 427px)  {
+    .quadro07 {
+
+        margin-top:1600%;
+        width: 240%;
+    
+    }
+   
+}

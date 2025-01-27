@@ -108,34 +108,36 @@
     .mulherbebendoagua {
         display: none;
     }
+
     .container5 {
 
         margin-left: 12%;
         height: 400px;
         width: 250px;
-       
-    
+
+
     }
+
     .dicatitulo {
-        
+
         font-size: 26px;
-       
-    
+
+
     }
-    
+
     .dicaparagrafo {
-       margin-top: 10%;
+        margin-top: 10%;
         font-size: 12px;
-      
+
         /* Remove margens padrão */
     }
-    
+
     .btnsaibamais {
-       margin-top: 10%;
+        margin-top: 10%;
         width: 200px;
-       margin-left: 25px;
+        margin-left: 25px;
     }
-    
+
 }
 
 @media (min-width: 352px) and (max-width: 425px) {
@@ -146,9 +148,10 @@
 
 
     }
-   
-    
+
+
 }
+
 @media (min-width: 352px) and (max-width:364px) {
     .quadrante05 {
 
@@ -157,10 +160,11 @@
 
 
     }
-   
-    
+
+
 }
-@media (min-width: 380px)  {
+
+@media (min-width: 380px) {
     .quadrante05 {
 
         margin-top: 770%;
@@ -168,6 +172,72 @@
 
 
     }
-   
-    
+
+
+}
+
+@media (min-width: 411px) {
+    .quadrante05 {
+
+        margin-top: 765%;
+        /* Use margens para ajustar a posição */
+
+
+    }
+
+    .container5 {
+
+        margin-left: 20%;
+        height: 400px;
+        width: 250px;
+
+
+    }
+
+}
+
+@media (min-width:427px) {
+    .quadrante05 {
+
+        margin-top: 965%;
+
+
+    }
+
+    .fundocolorido,
+    .mulherbebendoagua {
+        display: none;
+    }
+
+    .container5 {
+
+        margin-left: 40%;
+        height: 700px;
+        width: 550px;
+
+
+    }
+
+    .dicatitulo {
+        margin-top: 10%;
+        font-size: 36px;
+
+
+    }
+
+    .dicaparagrafo {
+        margin-top: 15%;
+        font-size: 25px;
+
+        /* Remove margens padrão */
+    }
+
+    .btnsaibamais {
+        margin-top: 5%;
+        width: 500px;
+        height: 70px;
+        font-size: 20px;
+        margin-left: 25px;
+    }
+
 }

@@ -109,3 +109,37 @@
    
     
 }
+@media (min-width:427px) {
+
+    .quadro04 {
+
+        margin-top: 800%;
+        /* Centraliza a imagem */
+        width: 220%;
+        /* Garante que o elemento ocupe 100% da largura */
+        height: 110%;
+        /* Define a altura como 100% da altura da janela */
+    
+    }
+    .paregrafos{
+      
+        color:#ffffff;
+        
+        font-size: 25px;
+    
+    }
+    .titlo {
+       
+        color:#fafafa;
+        font-size: 42px;
+       
+    
+    }
+
+    .saibamais{
+        top: 250px;
+        width: 350px;
+        height: 70px;
+        font-size: 25px;
+    }
+}
