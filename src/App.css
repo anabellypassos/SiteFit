@@ -1,7 +1,6 @@
-.quadrantesPages {
-    display: flex;
-    flex-direction: column; /* Organiza os itens em uma coluna */
-    gap: 16px; /* Espaçamento entre os quadrantes (opcional) */
-    padding: 16px; /* Espaçamento interno (opcional) */
-  }
+body{
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+}
   

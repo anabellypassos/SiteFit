@@ -181,7 +181,7 @@ body {
 
 /*RESPONSIVIDADE*/
 
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px)  {
 
     .celular,
     .slider-image,
@@ -219,6 +219,7 @@ body {
 
 
 }
+
 @media (min-width: 362px) and (max-width: 375px) {
     .logo {
         margin-left: -9%;
@@ -240,4 +241,41 @@ body {
 
     
 
+}
+
+@media (min-width:436px){
+    .app-bar {
+        font-size: 15px;
+    }
+    .logo {
+        width: 15%; 
+        top: 15px;
+    }
+    .Texto_principal {
+        margin-top: 25%;
+        margin-left: 10%;
+        font-size: 82.9px;
+       
+    
+    }
+    .pargrafo_quadrante1 {
+    
+        margin-left: 10%;
+        text-align: start;
+        font-size: 28.5px;
+    
+    }
+    .infobutton {
+
+      
+        width: 80%;
+        margin-left: 10%;
+        height: 13%;
+
+        font-size: 25px;
+       
+    
+    }
+  
+    
 }

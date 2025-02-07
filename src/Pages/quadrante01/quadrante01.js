@@ -48,8 +48,8 @@ const Quadrante01 = () => {
         </h1>
 
         <p className='pargrafo_quadrante1'>
-          <div>Faça do movimento uma parte da sua</div>
-          <div> vida diária com exercícios curtos e fáceis</div>
+          <div>Faça do movimento uma parte da sua  vida diária com exercícios curtos e fáceis</div>
+
 
         </p>
         <button className='infobutton'>SAIBA MAIS</button>

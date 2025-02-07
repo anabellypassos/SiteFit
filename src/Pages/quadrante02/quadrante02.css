@@ -35,7 +35,7 @@
 }
 
 /* Responsividade para telas menores */
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 334px) {
   
   .quadro2 {
     margin-top: 200%; /* Remove margem extra desnecessária */
@@ -44,10 +44,10 @@
 
   }
   .titulo{
+    font-size: 30px;
     margin-top: -20%;
   }
   .paragrafo {
-  
     top: -10%; /* Ajusta a posição usando unidades relativas à altura da janela */
 
   }
