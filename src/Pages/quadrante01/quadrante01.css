@@ -1,43 +1,19 @@
-body {
-    background-color: black;
-    overflow: auto;
-    flex-direction: column;
-    /* Empilha as páginas */
-    margin: 0;
-    /* Remove margens extras */
-    overflow-x: hidden;
-    margin-bottom: 10%;
-    flex-wrap: wrap;
-    /* Permite que os itens quebrem linha */
-
-}
-
-.app-bar {
-
+.containerQuadrante01{
+    align-items: center;
+    background-color: #3b3737;
+    margin-top: -0.1%;
     cursor: pointer;
     display: flex;
-    color: beige;
-    position: absolute;
+    flex-direction: row;
     gap: 2%;
-    margin-left: 10%;
-    margin-top: 3%;
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    font-size: 12px;
+    padding: 10px;
+    width: 100%;
 }
 
-.logo {
-    cursor: pointer;
-    width: 5%;
-    height: 5%;
-    border-radius: 100%;
-    position: relative;
-    top: 10px;
-}
 
 .quadrante1 {
-    position: absolute;
-    margin-left: 10%;
+    position: flex;
+    margin-left: 15%;
     margin-top: 10%;
 
 }
@@ -45,15 +21,23 @@ body {
 .Texto_principal {
     font-family: 'Open Sans', sans-serif;
     color: beige;
-    font-size: 62.9px;
-
+    font-size: 62px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 50%; /* Ajusta o tamanho do texto ao contêiner */
 }
-
 .pargrafo_quadrante1 {
     font-family: 'Open Sans', sans-serif;
     color: beige;
     font-size: 21.5px;
     text-align: start;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 50%;
+    
+   
 
 
 }
@@ -62,8 +46,9 @@ body {
 
     cursor: pointer;
     position: absolute;
-    width: 60%;
-    height: 13%;
+    width: 20%;
+    height: 10%;
+    margin-top: 2%;
     border-radius: 20px;
     background-color: #fd288d;
     font-family: "DM Sans", sans-serif;
@@ -73,54 +58,25 @@ body {
     letter-spacing: 5px;
 
 }
-
-
-
 .celular {
     filter: drop-shadow(0 0 1rem rgb(238, 237, 236));
-    box-shadow: 1px 1px 1rem rgb(236, 235, 233);
-    position: absolute;
-    top: 10px;
-    width: 40%;
-    height: 90%;
-    margin-left: 50%;
+    margin-top: -34%;
+    width: 35%;
+    height: 72%;
+    display: flex; 
+   margin-left: 63%;
+   position: absolute;
 }
-
-
-
-
 .slider-image {
     transition: opacity 0.5s ease-in-out;
+    display: flex;
+    margin-top: -0.2%;
+    width:  15%;
+    height:62%;
+    margin-left: 73%;
     position: absolute;
-    margin-top: 4%;
-    width: 18%;
-    height: 77%;
-    /* Em vez de % use vh, se quiser uma altura relativa à altura da janela */
-    margin-left: 61%;
     border-radius: 25px;
 }
-
-.acesasorios {
-    margin: 0;
-    /* Remove espaçamentos extras */
-    text-align: center;
-    position: absolute;
-    /* Permite controle total da posição */
-    height: 100%;
-    align-items: end;
-    margin-top: 29%;
-    /* Centraliza verticalmente */
-    margin-left: 80%;
-    /* Centraliza horizontalmente */
-    transform: translate(-50%, -50%);
-    /* Ajusta o deslocamento devido ao `top` e `left` */
-    z-index: -1;
-    /* Envia o elemento para trás */
-}
-
-
-
-
 
 
 .infobutton:before {
@@ -179,103 +135,38 @@ body {
 }
 
 
-/*RESPONSIVIDADE*/
 
-@media (min-width: 320px)  {
-
-    .celular,
-    .slider-image,
-    .acesasorios {
-        display: none;
-    }
-
-    .logo {
-
-        width: 10%;
-        height: 10%;
-
-    }
-
-    .app-bar {
-
-
-        margin-left: 15%;
-
-        font-size: 10px;
-    }
-
-    .Texto_principal {
-
-        font-size: 42.9px;
-
-    }
-
-    .infobutton {
-        width: 80%;
-        margin-top: 10%;
-
-    }
-
+.acesasorios{
+display: flex;
+margin-left: 69%;
+width: 80%;
+margin-top: -40%;
+position: relative;
 
 
 }
 
-@media (min-width: 362px) and (max-width: 375px) {
-    .logo {
-        margin-left: -9%;
-       
-
-    }
-
-    .app-bar {
 
 
-        margin-left: 15%;
 
-    }
 
-    .Texto_principal {
-        margin-top: 30%;
 
-    }
 
-    
 
-}
 
-@media (min-width:436px){
-    .app-bar {
-        font-size: 15px;
-    }
-    .logo {
-        width: 15%; 
-        top: 15px;
-    }
-    .Texto_principal {
-        margin-top: 25%;
-        margin-left: 10%;
-        font-size: 82.9px;
-       
-    
-    }
-    .pargrafo_quadrante1 {
-    
-        margin-left: 10%;
-        text-align: start;
-        font-size: 28.5px;
-    
-    }
-    .infobutton {
 
-      
-        width: 80%;
-        margin-left: 10%;
-        height: 13%;
 
-        font-size: 25px;
-       
-    
-    }
-  
-    
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

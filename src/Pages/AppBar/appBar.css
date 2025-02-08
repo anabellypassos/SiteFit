@@ -1,24 +1,21 @@
-* {
-    background-color: black;
-
-}
-
 .app-bar {
-    margin-top: -8%;
+    background-color: black;
+    margin-top: -0.2%;
     cursor: pointer;
     display: flex;
     flex-direction: row;
     gap: 2%;
-
-
+    padding: 10px ;
+    width: 100%;
 
 }
 
 .logo {
+    margin-top: 0.2%;
+    margin-left: 6%;
     width: 50px;
     height: 50px;
     border-radius: 100%;
-
 }
 
 .tituloAppBar {
@@ -26,26 +23,15 @@
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
     font-size: 20px;
-    margin-right: 55%;
     display: flex;
-
 }
 
-.info {
-    cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    /* Alterado de 100% para 50px */
-    margin-left: auto;
-    /* Substituir 100% por 'auto' para alinhar corretamente */
-}
-
-
-
-/* Menu padrão oculto */
 .menu {
+    margin-right: 10%;
     display: flex;
     gap: 20px;
+    align-items: flex-end;
+    margin-left: auto;
 }
 
 .menu-item {
@@ -56,27 +42,30 @@
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
     padding: 5px 10px;
-
 }
 
 .menu-item:hover {
-    background-color: rgba(48, 45, 45, 0.8);
-    height: 50%;
-  
+    background-color: rgba(48, 45, 45, 0.644);
+
     transform: scale(1.1);
-
-
+   
+    box-shadow: 0 4px 6px #fffdfdc0;
+   
+    backdrop-filter: blur(10px);
+ 
 }
 
 .burger-menu {
     display: none;
-    /* Oculto em telas grandes */
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
+    align-items: flex-end;
+    margin-left: auto;
 }
 
 .burger-bar {
+    margin-right: 70%;
     width: 30px;
     height: 4px;
     background-color: white;
@@ -84,33 +73,30 @@
     transition: 0.4s;
 }
 
-/* Menu hambúrguer para telas menores */
 @media (max-width: 768px) {
+    
     .menu {
         display: none;
-        /* Oculta os itens do menu */
         flex-direction: column;
         position: absolute;
         top: 60px;
-        right: 0;
-        background-color: rgb(37, 39, 53);
+        right: 0px;
+        background-color: rgba(48, 45, 45, 0.8);
         width: 200px;
         padding: 1em;
-        text-align: left;
         border-radius: 5px;
     }
 
     .menu.visible {
         display: flex;
-        /* Exibe quando ativado */
+        align-items: center;
+        background-color: rgba(48, 45, 45, 0.8);
     }
 
     .burger-menu {
         display: flex;
-        /* Mostra o menu hambúrguer */
     }
 
-    /* Animação do ícone hambúrguer */
     .burger-bar.clicked:nth-child(1) {
         transform: rotate(45deg) translate(5px, 6px);
     }
@@ -128,3 +114,6 @@
         opacity: 1;
     }
 }
+
+
+

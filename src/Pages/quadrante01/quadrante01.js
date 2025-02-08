@@ -28,23 +28,18 @@ const Quadrante01 = () => {
   }, [images.length]);
 
   return (
-    <div className='quadro1page'>
+    <div className='containerQuadrante01'>
 
  
     <div className='fundo'>
 
-      <div className='app-bar'>
-        <img className='logo' src={logo} alt="Logo" />
-        <h1>Viva a vida</h1>
-      </div>
-
+      
 
       <div className='quadrante1'>
 
         <h1 className='Texto_principal'>
-          <div>A vida</div>
-          <div>precisa de</div>
-          <div> movimento</div>
+          <div>A vida precisa de movimento</div>
+    
         </h1>
 
         <p className='pargrafo_quadrante1'>

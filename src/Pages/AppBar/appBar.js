@@ -31,6 +31,7 @@ const AppBar = () => {
       </div>
 
       {/* Menu de navegação */}
+      
       <nav className={menuClass}>
         <h1 className='menu-item'>Sobre nós</h1>
         <h1 className='menu-item'>Planos</h1>
