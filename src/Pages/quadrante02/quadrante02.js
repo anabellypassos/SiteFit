@@ -8,11 +8,13 @@ const Quadrante02 = () => {
         Sobre :</h1>
 
       <p className='paragrafo'>
-        <p> O Plano Viva a Vida é a solução ideal para quem deseja cuidar da saúde </p>
-        <p>e manter a forma física sem sair de casa. Nossa consultoria de treino </p> 
-         <p>online foi pensada para atender às suas necessidades de forma prática </p>
-        <p>e eficiente, proporcionando conforto e flexibilidade.</p> 
-        
+        A PowerFit é a academia ideal para quem busca atingir seus
+        objetivos de saúde e bem-estar. Oferecemos planos personalizados
+        e uma ampla variedade de atividades para atender às suas necessidades,
+        proporcionando uma experiência completa e flexível. Com nosso foco em
+        resultados, você tem a liberdade de escolher entre diferentes modalidades
+        e treinos que se adaptam ao seu ritmo e estilo de vida.
+
       </p>
 
     </section>

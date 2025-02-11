@@ -21,7 +21,8 @@ const AppBar = () => {
   return (
     <div className='app-bar'>
       <img className='logo' src={logo} alt="Logo" />
-      <h1 className='tituloAppBar'>Viva a vida</h1>
+      <h1 className='tituloAppBar'>PowerFit
+      </h1>
 
       {/* Ícone de menu hamburguer para telas pequenas */}
       <div className="burger-menu" onClick={updateMenu}>

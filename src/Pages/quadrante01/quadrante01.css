@@ -1,87 +1,117 @@
-.containerQuadrante01{
+.containerQuadrante01 {
     align-items: center;
-    background-color: #3b3737;
+    justify-content: center;
+    background-image: url("imageq1/crossfit-534615_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
     margin-top: -0.1%;
     cursor: pointer;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 2%;
     padding: 10px;
     width: 100%;
+    height: 100vh;
+    text-align: center;
 }
 
 
-.quadrante1 {
-    position: flex;
-    margin-left: 15%;
-    margin-top: 10%;
-
+/* Filtro vermelho */
+.containerQuadrante01::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.719); /* Vermelho com transparência */
+    z-index: 1;
 }
 
-.Texto_principal {
-    font-family: 'Open Sans', sans-serif;
+/* Para garantir que os elementos dentro do container fiquem acima do filtro */
+.containerQuadrante01 > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.Texto1{
+    letter-spacing: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
     color: beige;
     font-size: 62px;
-    word-wrap: break-word; 
+    word-wrap: break-word;
     overflow-wrap: break-word;
-    white-space: normal;
-    max-width: 50%; /* Ajusta o tamanho do texto ao contêiner */
+    white-space:5px;
+    text-align: center;
+    margin-top: -10%;
+    /* Ajusta o tamanho do texto ao contêiner */
 }
-.pargrafo_quadrante1 {
+
+.Texto2{
     font-family: 'Open Sans', sans-serif;
     color: beige;
-    font-size: 21.5px;
-    text-align: start;
+    letter-spacing: 5px;
+    font-size: 82px;
+    font-weight:bold ;
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
-    max-width: 50%;
-    
-   
-
-
+    text-align: center;
+    margin-top: 1%;
+    text-shadow: rgba(255, 5, 5, 0.699) 0.1em 0.1em 0.2em;
+    /* Ajusta o tamanho do texto ao contêiner */
 }
+.treino{
+    color: red;
+    text-shadow: rgba(0, 0, 0, 0.699) 0.1em 0.1em 0.2em;
+
+    
+}
+
+
+.pargrafo_quadrante1 {
+    letter-spacing: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    color: beige;
+    font-size: 42px;
+    word-wrap: break-word; /* Quebra palavras longas automaticamente */
+    overflow-wrap: break-word; /* Garante a quebra dentro do contêiner */
+    white-space: normal; /* Deixe o texto quebrar normalmente */
+    text-align: center;
+    margin-top: -5%;
+    word-break: break-word; /* Usa quebra de palavra, quebra as palavras quando necessário */
+}
+
+
 
 .infobutton {
-
     cursor: pointer;
     position: absolute;
-    width: 20%;
-    height: 10%;
-    margin-top: 2%;
+    width: 50%;
+    height: 30%;
+    left: 50%; /* Centraliza horizontalmente */
+    margin-top: 10%;
+    transform: translate(-50%, -50%); /* Ajusta para o verdadeiro centro */
     border-radius: 20px;
-    background-color: #fd288d;
+    background-color: #fd3628;
     font-family: "DM Sans", sans-serif;
     color: azure;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
     letter-spacing: 5px;
+}
 
-}
-.celular {
-    filter: drop-shadow(0 0 1rem rgb(238, 237, 236));
-    margin-top: -34%;
-    width: 35%;
-    height: 72%;
-    display: flex; 
-   margin-left: 63%;
-   position: absolute;
-}
-.slider-image {
-    transition: opacity 0.5s ease-in-out;
-    display: flex;
-    margin-top: -0.2%;
-    width:  15%;
-    height:62%;
-    margin-left: 73%;
-    position: absolute;
-    border-radius: 25px;
-}
 
 
 .infobutton:before {
     content: '';
-    background: linear-gradient(45deg, #ff00c8, #ffffff);
+    background: linear-gradient(45deg, #ff0000, #ffffff);
     position: absolute;
     top: -2px;
     left: -2px;
@@ -133,36 +163,6 @@
         background-position: 0 0;
     }
 }
-
-
-
-.acesasorios{
-display: flex;
-margin-left: 69%;
-width: 80%;
-margin-top: -40%;
-position: relative;
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
