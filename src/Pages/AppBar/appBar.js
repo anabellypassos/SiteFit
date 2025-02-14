@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../images/990a7aff-7fd0-4f0d-a789-ce13e7b72efb.png';
+import logo from '../../images/imagemcelular/logo.png';
 import './appBar.css';
 
 const AppBar = () => {

@@ -3,7 +3,7 @@
   background-size: cover; /* Faz a imagem cobrir toda a área */
   background-repeat: no-repeat; /* Evita repetição da imagem */
   background-position: center; /* Centraliza a imagem */
-  position: absolute;
+  position: relative;
   width: 100%; /* Garante que o elemento ocupe 100% da largura */
   height: 100vh; /* Define a altura como 100% da altura da janela */
   overflow: hidden; /* Evita rolagem desnecessária */

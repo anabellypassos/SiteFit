@@ -1,50 +1,50 @@
 import React from 'react'
 import '../quadrante3/quadrante3.css';
-import peso from '../quadrante3/imagensquadrante3/peso.png';
-import mao from '../quadrante3/imagensquadrante3/mao.png';
-import coracao from '../quadrante3/imagensquadrante3/coracao.png';
+import homemPeso from '../quadrante3/imagensquadrante3/homemcoPeso.png';
+import bicicleta from '../quadrante3/imagensquadrante3/bicicleta.png';
+import esteira from '../quadrante3/imagensquadrante3/esteira.png';
 
 
 const Quadrante3 = () => {
   return (
-    <section className='container'>
+    <div className='container'>
 
-      <h1 className='title'>Principais recursos</h1>
+      <h1 className='titlePrincipaisrecursos'>Principais recursos</h1>
 
       <div className='imagens'>
-        <img className='peso' src={peso} alt='peso'></img>
-        <img className='mao' src={mao} alt='mao'></img>
-        <img className='coracao' src={coracao} alt='coracao'></img>
+        <img className='homemPeso' src={homemPeso} alt='homemPeso'></img>
+        <img className='bicicleta' src={bicicleta} alt='bicicleta'></img>
+        <img className='esteira' src={esteira} alt='esteira'></img>
       </div>
 
       <div className='quadrantes'>
 
         <div className='container1'>
-          <p>Acompanhamento em Tempo Real <br/>
-          Receba suporte profissional durante <br/>
-           os treinos, garantindo a execução  <br/>
-           correta dos exercícios e maior  <br/>
-           segurança no seu progresso.<br/>
+          <p>Acompanhamento em Tempo Real
+          Receba suporte profissional durante
+           os treinos, garantindo a execução 
+           correta dos exercícios e maior 
+           segurança no seu progresso.
            
             </p>
         </div>
 
         <div className='container2'>
-        <p>Treinos Personalizados <br/>
-         Planos de exercícios adaptados<br/>
-          ao seu nível de condicionamento físico,<br/>
-           objetivos pessoais e rotina diária, para<br/>
-            resultados eficientes e duradouros. <br/>
+        <p>Treinos Personalizados
+         Planos de exercícios adaptados
+          ao seu nível de condicionamento físico,
+           objetivos pessoais e rotina diária, para
+            resultados eficientes e duradouros. 
             
             </p>
 
         </div>
         <div className='container3'>
-        <p>Flexibilidade e Conforto <br/>
-          Realize seus treinos em casa, no horário que<br/>
-         preferir, com orientações simples e práticas<br/>
+        <p>Flexibilidade e Conforto 
+          Realize seus treinos em casa, no horário que
+         preferir, com orientações simples e práticas
           que se encaixam no seu dia a dia.
-            <br/>
+            
          
             </p>
 
@@ -52,7 +52,7 @@ const Quadrante3 = () => {
 
 
       </div>
-    </section>
+    </div>
   )
 }
 
