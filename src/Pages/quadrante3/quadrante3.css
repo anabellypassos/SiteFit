@@ -14,7 +14,7 @@
     text-shadow: rgb(70, 62, 62) 0.1em 0.1em 0.2em;
     color: #ff0000;
     text-align: center;
-    font-size: 82px; /* Usa unidades responsivas para o tamanho da fonte */
+    font-size: 60px; /* Usa unidades responsivas para o tamanho da fonte */
     line-height: 1.2; /* Ajusta o espaçamento vertical entre as linhas */
     font-family: 'Open Sans', sans-serif;
     margin-top: 10%;
@@ -24,7 +24,8 @@
 .imagens {
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 8%;
+    
     
 
 
@@ -46,7 +47,7 @@ height: 300px;
 .quadrantes {
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 100px;
 }
 
 
