@@ -1,0 +1,105 @@
+.quadro07 {
+    background-color: black;
+    background-size: cover;
+    /* Faz a imagem cobrir toda a área */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    position: relative;
+    background-position: center;
+    /* Centraliza a imagem */
+    width: 100%;
+    /* Garante que o elemento ocupe 100% da largura */
+ 
+
+    /* Define a altura como 100% da altura da janela */
+
+}
+.localLogoMarca{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    padding: 10px;
+}
+.tituloAppBarPOwer{
+    color: beige;
+    font-family:'Pacifico';
+    letter-spacing: 2px;
+    font-style: italic;
+    margin-top: 7%;
+    
+    font-size: 25px;
+    display: flex;
+}
+.logofooter{
+    margin-top: 5%;
+    margin-left: 6%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.fale_conosco {
+
+    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+    color: #ffffff;
+    text-align: start;
+    margin-left: 10%;
+    font-size: 30px; /* Usa unidades responsivas para o tamanho da fonte */
+    line-height: 1.2; /* Ajusta o espaçamento vertical entre as linhas */
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.imagemBanner{
+    margin-right: 5%;
+    float: right;
+    width: 40%; /* Ajuste o tamanho da imagem */
+    height: auto;
+    margin-top: -18%;
+}
+
+.telefone {
+    gap: 10px;
+    display: flex;
+    margin-left: 10%;
+
+
+}
+
+.tel {
+    color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.email {
+    gap: 10px;
+    display: flex;
+
+    margin-left: 10%;
+
+}
+
+.em {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.redes {
+    gap: 10px;
+    display: flex;
+    margin-left: 10%;
+
+}
+
+.social {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+   
+}
+
+
+

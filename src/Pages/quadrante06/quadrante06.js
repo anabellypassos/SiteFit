@@ -9,48 +9,30 @@ const Quadrante06 = () => {
       <div className='quadrantes6'>
         < div className='quadrantecontainer1' >
           <p className='depoimento1'>
-            Depoimentos são frases <br />
-            curtas das pessoas que <br />
-            gostam da sua marca. É uma <br />
-            ótima forma de convencer o<br />
-            público a experimentar seus <br />
-             serviços.
+          Na PowerFit, encontrei o equilíbrio perfeito entre treino e bem-estar!
 
             <p className='pessoa1'>
-              Francine, Assistente <br />
-              Virtual
+            Lucas, Estudante
             </p>
           </p>
         </div>
 
         < div className='quadrantecontainer2' >
           <p className='depoimento2'>
-            Depoimentos são frases <br />
-            curtas das pessoas que <br />
-            gostam da sua marca. É uma <br />
-            ótima forma de convencer o<br />
-            público a experimentarseus<br /> 
-             serviços.
+          As aulas são incríveis e o suporte da equipe faz toda a diferença!
 
             <p className='pessoa2'>
-              Francine, Assistente <br />
-              Virtual
+            Amanda, Profissional de Marketing.
             </p>
           </p>
 
         </div>
         < div className='quadrantecontainer3'>
           <p className='depoimento3'>
-            Depoimentos são frases <br />
-            curtas das pessoas que <br />
-            gostam da sua marca. É uma <br />
-            ótima forma de convencer o<br />
-            público a experimentar seus<br />
-            serviços.
+          Adoro a variedade de modalidades e a comunidade motivadora!
 
             <p className='pessoa3'>
-              Francine, Assistente <br />
-              Virtual
+            Pedro, Empresário.
             </p>
           </p>
         </div>

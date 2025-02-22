@@ -20,33 +20,26 @@ const Quadrante3 = () => {
       <div className='quadrantes'>
 
         <div className='container1'>
-          <p>Acompanhamento em Tempo Real
-          Receba suporte profissional durante
-           os treinos, garantindo a execução 
-           correta dos exercícios e maior 
-           segurança no seu progresso.
-           
-            </p>
+          <h1 className='recursos-titulos'>Treinos Personalizados</h1>
+          <p>Planos ajustados para diferentes objetivos (emagrecimento, hipertrofia, condicionamento).</p>
+          <p> Avaliação física inicial e acompanhamento mensal.</p>
+          <p> Treinadores qualificados para guiar cada etapa do processo.  </p>
         </div>
 
         <div className='container2'>
-        <p>Treinos Personalizados
-         Planos de exercícios adaptados
-          ao seu nível de condicionamento físico,
-           objetivos pessoais e rotina diária, para
-            resultados eficientes e duradouros. 
-            
-            </p>
+          <h1 className='recursos-titulos'>Variedade de Modalidades</h1>
+          <p>Musculação, funcional, HIIT, yoga e pilates.</p>
+          <p>Aulas coletivas dinâmicas para todos os níveis.</p>
 
         </div>
         <div className='container3'>
-        <p>Flexibilidade e Conforto 
-          Realize seus treinos em casa, no horário que
-         preferir, com orientações simples e práticas
-          que se encaixam no seu dia a dia.
-            
-         
-            </p>
+          <h1 className='recursos-titulos'> Flexibilidade e Conveniência</h1>
+          <p>Horários estendidos para treinar quando quiser.   </p>
+          <p>App exclusivo para agendamento de aulas e acompanhamento de progresso.</p>
+          <p>Opções de planos mensais, trimestrais e anuais sem burocracia.</p>
+
+
+
 
         </div>
 
