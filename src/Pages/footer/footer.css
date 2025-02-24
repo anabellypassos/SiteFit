@@ -9,8 +9,7 @@
     /* Centraliza a imagem */
     width: 100%;
     /* Garante que o elemento ocupe 100% da largura */
- 
-
+   height: 100vh;
     /* Define a altura como 100% da altura da janela */
 
 }
@@ -100,6 +99,8 @@
     font-weight: bold;
    
 }
-
+.whatsapp{
+    height: 40px;
+}
 
 

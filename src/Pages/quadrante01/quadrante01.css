@@ -1,3 +1,10 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .containerQuadrante01 {
     align-items: center;
     justify-content: center;
@@ -84,7 +91,7 @@
     overflow-wrap: break-word; /* Garante a quebra dentro do contêiner */
     white-space: normal; /* Deixe o texto quebrar normalmente */
     text-align: center;
-    margin-top: -5%;
+    margin-top: 1%;
     word-break: break-word; /* Usa quebra de palavra, quebra as palavras quando necessário */
 }
 
@@ -94,7 +101,7 @@
     cursor: pointer;
     position: absolute;
     width: 50%;
-    height: 30%;
+    height: 35%;
     left: 50%; /* Centraliza horizontalmente */
     margin-top: 10%;
     transform: translate(-50%, -50%); /* Ajusta para o verdadeiro centro */

@@ -1,11 +1,8 @@
 body {
-  position: relative; /* Alterado para relative */
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 100vh;
   overflow-y: auto;
   box-sizing: border-box;
 }
@@ -13,6 +10,14 @@ body {
 .quadrantesPages {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
+}
+
+.quadrante {
+  width: 100%;
+  min-height: 100vh; /* Cada quadrante ocupa a tela inteira */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }

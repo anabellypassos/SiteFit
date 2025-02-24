@@ -5,7 +5,7 @@
   background-position: center; /* Centraliza a imagem */
   position: relative;
   width: 100%; /* Garante que o elemento ocupe 100% da largura */
-  height: 100vh; /* Define a altura como 100% da altura da janela */
+  height: 110vh; /* Define a altura como 100% da altura da janela */
   overflow: hidden; /* Evita rolagem desnecessária */
   display: flex; /* Ativa o flexbox */
   flex-direction: column; /* Alinha itens verticalmente */
@@ -21,7 +21,7 @@
   font-size: 60px; /* Usa unidades responsivas para o tamanho da fonte */
   line-height: 1.2; /* Ajusta o espaçamento vertical entre as linhas */
   font-family: 'Open Sans', sans-serif;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .paragrafo {
@@ -34,7 +34,7 @@
   font-size: 30px; /* Usa unidades responsivas para o tamanho da fonte */
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5; /* Ajusta o espaçamento vertical entre as linhas */
-  margin-top: -10%;
+  margin-top: -6%;
 
 
 }

@@ -3,6 +3,7 @@ import './footer.css';
 import imagemBanner from '../footer/imgfinalquadrante/3bed6a57-2a77-494c-aad6-5afa8d90b84a.png';
 import logofooter from '../../images/imagemcelular/logo.png';
 import { IoLogoWhatsapp } from "react-icons/io";
+import whatsapp from './imgfinalquadrante/images-removebg-preview (3).png';
 
 const Footer = () => {
     return (
@@ -19,12 +20,13 @@ const Footer = () => {
             </div>
             <div className='email'>
                 <p className='em'>E-Mail:</p>
-                <p>vivavida32@g.gmail.com</p>
+                <p>powerfit32@g.gmail.com</p>
             </div>
             <div className='redes'>
                 <p className='social'>
                     Social: 
                 </p>
+            <img className='whatsapp' src={whatsapp} alt='whatsapp'></img>
             </div>
         </div>
     );

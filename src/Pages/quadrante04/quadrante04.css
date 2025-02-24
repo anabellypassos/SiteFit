@@ -1,12 +1,12 @@
 .quadro04 {
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.938), rgba(0, 0, 0, 0.5)), url("../quadrante04/image/gym-background-z0k3y4mebor64d2d.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.267)), url("../quadrante04/image/gym-background-z0k3y4mebor64d2d.jpg");
     background-size: cover; /* Faz a imagem cobrir toda a área */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     background-position: center; /* Centraliza a imagem */
     position: relative;
     width: 100%; /* Garante que o elemento ocupe 100% da largura */
-    height: 150vh; /* Define a altura como 100% da altura da janela */
+    height: 170vh; /* Define a altura como 100% da altura da janela */
     overflow: hidden; /* Evita rolagem desnecessária */
     display: flex; /* Ativa o flexbox */
     flex-direction: column; /* Alinha itens verticalmente */
@@ -21,17 +21,17 @@
 }
 
 .titlo {
-    text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+ text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
   color: #ff0000;
   text-align: center;
   font-size: 60px; /* Usa unidades responsivas para o tamanho da fonte */
   line-height: 1.2; /* Ajusta o espaçamento vertical entre as linhas */
   font-family: 'Open Sans', sans-serif;
-  margin-top: 10%;
+  margin-top: -10%;
   
 }
 .paregrafos{
-    padding:10% ;
+ padding:10% ;
   color: #ffffff;
   text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.10em;
   letter-spacing: 1px;
@@ -40,10 +40,10 @@
   font-size: 30px; /* Usa unidades responsivas para o tamanho da fonte */
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5; /* Ajusta o espaçamento vertical entre as linhas */
-  margin-top: -10%;
+  margin-top: -7%;
 }
 .saibamais{
-    top: 680px;
+    top: 540px;
     cursor: pointer;
     position: absolute;
     width: 50%;
