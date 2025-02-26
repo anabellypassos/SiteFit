@@ -18,7 +18,7 @@
   text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
   color: #ff0000;
   text-align: center;
-  font-size: 60px; /* Usa unidades responsivas para o tamanho da fonte */
+  font-size: 50px; /* Usa unidades responsivas para o tamanho da fonte */
   line-height: 1.2; /* Ajusta o espaçamento vertical entre as linhas */
   font-family: 'Open Sans', sans-serif;
   margin-top: 5%;
@@ -31,7 +31,7 @@
   letter-spacing: 1px;
   font-weight: bold;
   text-align: center;
-  font-size: 30px; /* Usa unidades responsivas para o tamanho da fonte */
+  font-size: 20px; /* Usa unidades responsivas para o tamanho da fonte */
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5; /* Ajusta o espaçamento vertical entre as linhas */
   margin-top: -6%;

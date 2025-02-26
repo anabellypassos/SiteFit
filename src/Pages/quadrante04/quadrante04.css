@@ -24,7 +24,7 @@
  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
   color: #ff0000;
   text-align: center;
-  font-size: 60px; /* Usa unidades responsivas para o tamanho da fonte */
+  font-size: 50px; /* Usa unidades responsivas para o tamanho da fonte */
   line-height: 1.2; /* Ajusta o espaçamento vertical entre as linhas */
   font-family: 'Open Sans', sans-serif;
   margin-top: -10%;
@@ -37,17 +37,17 @@
   letter-spacing: 1px;
   font-weight: bold;
   text-align: center;
-  font-size: 30px; /* Usa unidades responsivas para o tamanho da fonte */
+  font-size: 20px; /* Usa unidades responsivas para o tamanho da fonte */
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5; /* Ajusta o espaçamento vertical entre as linhas */
   margin-top: -7%;
 }
 .saibamais{
-    top: 540px;
+    top: 200px;
     cursor: pointer;
     position: absolute;
-    width: 50%;
-    height: 10%;
+    width: 40%;
+    height: 20%;
     left: 50%; /* Centraliza horizontalmente */
     margin-top: 10%;
     transform: translate(-50%, -50%); /* Ajusta para o verdadeiro centro */

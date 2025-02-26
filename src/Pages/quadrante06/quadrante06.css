@@ -14,7 +14,7 @@
     text-shadow: rgb(70, 62, 62) 0.1em 0.1em 0.2em;
     color: #ff0000;
     text-align: center;
-    font-size: 60px; /* Usa unidades responsivas para o tamanho da fonte */
+    font-size: 50px; /* Usa unidades responsivas para o tamanho da fonte */
     line-height: 1.2; /* Ajusta o espaçamento vertical entre as linhas */
     font-family: 'Open Sans', sans-serif;
     margin-top: 10%;
@@ -66,27 +66,27 @@
 
 .depoimento1 {
     margin-top: 50px;
-    text-align: center;
+    text-align: start;
     padding: 5px;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
 .depoimento2 {
     margin-top: 50px;
-    text-align: center;
+    text-align: start;
     padding: 5px;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
 .depoimento3 {
     margin-top: 50px;
-    text-align: center;
+    text-align: start;
     padding: 5px;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
@@ -96,7 +96,7 @@
     margin-bottom: 100px;
     text-align: start;
 
-    font-size: 17px;
+    font-size: 15px;
     color: #fd2828;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -106,7 +106,7 @@
     margin-top: 50px;
     text-align: start;
 
-    font-size: 17px;
+    font-size: 15px;
     color:  #fd2828;;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -116,7 +116,7 @@
     margin-top: 50px;
     text-align: start;
 
-    font-size: 17px;
+    font-size: 15px;
     color:  #fd2828;;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
