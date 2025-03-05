@@ -21,3 +21,16 @@ body {
   justify-content: center;
   text-align: center;
 }
+
+@media (max-width: 966px) {
+  .quadrantesPages {
+    width: 140%;
+
+  }
+}
+@media (max-width:765px) {
+  .quadrantesPages {
+    width: 95%;
+
+  }
+}
