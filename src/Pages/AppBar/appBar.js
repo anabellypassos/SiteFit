@@ -19,12 +19,15 @@ const AppBar = () => {
     }
     setIsMenuClicked(!isMenuClicked);
   };
-   
-  return (
+
+  return ( 
+ 
     <div className='app-bar'>
-      <img className='logo' src={logo} alt="Logo" />
-      <h1 className='tituloAppBar'>PowerFit
-      </h1>
+      < Link to="quadrante01" smooth={true} duration={500}>
+        <img className='logo' src={logo} alt="Logo" />
+        <h1 className='tituloAppBar' >PowerFit
+        </h1>
+      </Link>
 
       {/* Ícone de menu hamburguer para telas pequenas */}
       <div className="burger-menu" onClick={updateMenu}>
@@ -34,26 +37,26 @@ const AppBar = () => {
       </div>
 
       {/* Menu de navegação */}
-      
+
       <nav className={menuClass}>
-      <Link to="quadrante02" smooth={true} duration={500}>
-      <h1 className='menu-item'> 
-         Sobre nós 
-      </h1>
-      </Link>
-      <Link to="quadrante03" smooth={true} duration={500}>
-      <h1 className='menu-item'> 
-      Planos
-      </h1>
-    
-      </Link>
-      <Link to="footer" smooth={true} duration={500}>
-      <h1 className='menu-item'> 
-      Contato
-      </h1>
-    
-      </Link>
-   
+        <Link to="quadrante02" smooth={true} duration={500}>
+          <h1 className='menu-item'>
+            Sobre nós
+          </h1>
+        </Link>
+        <Link to="quadrante03" smooth={true} duration={500}>
+          <h1 className='menu-item'>
+            Planos
+          </h1>
+
+        </Link>
+        <Link to="footer" smooth={true} duration={500}>
+          <h1 className='menu-item'>
+            Contato
+          </h1>
+
+        </Link>
+
       </nav>
     </div>
   );
