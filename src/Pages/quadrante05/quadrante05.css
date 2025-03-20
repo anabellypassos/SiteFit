@@ -183,23 +183,259 @@ top: 80%;
 }
 }
 @media (max-width:490px) {
-    .quadrante05{
-      height: 230vh;
+    .quadrante05 {
+        background-color: #140101;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        width: 100%;
+        height: 140vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-      .container5 {
-          height: 310%;
-          width: 90%;
-         
-      }
-  
-  .btnsaibamais {
-  top: 80%;
-  
-      width: 80%;
-      height: 10%;
-      left: 50%; /* Centraliza horizontalmente */
-      margin-top: 10%;
-      font-size: 20px;
-  
+
+    
+    .container5 {
+        margin-top: -30%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgb(105, 1, 1);
+        height: 3000%;
+        width: 100%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fffcfe; /* Cor da borda */
+        animation: glow 1.5s infinite alternate; /* Animação do brilho */
+    }
+    
+    
+    .dicatitulo {
+       top: -50px;
+        font-size: 20px;  
+    
+    }
+    
+    .dicaparagrafo {
+       
+        font-size: 12px;
+     
+    }
+    
+    .btnsaibamais {
+        top: 75%;
+        width: 200px;
+        height: 50px;
+        left: 50%; /* Centraliza horizontalmente */
+        margin-top: 10%;
+        transform: translate(-50%, -50%); /* Ajusta para o verdadeiro centro */
+        border-radius: 10px;
+        background-color: #fd3628;
+        font-family: "DM Sans", sans-serif;
+        color: azure;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 5px;
+    }
+    
   }
+  @media (max-width:410px) {
+    .quadrante05 {
+        background-color: #140101;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .container5 {
+        margin-top: -30%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgb(105, 1, 1);
+        height: 3000%;
+        width: 100%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fffcfe; /* Cor da borda */
+        animation: glow 1.5s infinite alternate; /* Animação do brilho */
+    }
+    
+    
+    .dicatitulo {
+       top: -50px;
+        font-size: 20px;  
+    
+    }
+    
+    .dicaparagrafo {
+       
+        font-size: 12px;
+     
+    }
+    
+    .btnsaibamais {
+        top: 75%;
+        width: 200px;
+        height: 50px;
+        left: 50%; /* Centraliza horizontalmente */
+        margin-top: 10%;
+        transform: translate(-50%, -50%); /* Ajusta para o verdadeiro centro */
+        border-radius: 10px;
+        background-color: #fd3628;
+        font-family: "DM Sans", sans-serif;
+        color: azure;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 5px;
+    }
+    
+  }
+  @media (max-width:401px) {
+    .quadrante05 {
+        background-color: #140101;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .container5 {
+        margin-top: -30%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgb(105, 1, 1);
+        height: 500%;
+        width: 90%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fffcfe; /* Cor da borda */
+        animation: glow 1.5s infinite alternate; /* Animação do brilho */
+    }
+    
+    
+    .dicatitulo {
+       top: -20px;
+        font-size: 20px;  
+    
+    }
+    
+    .dicaparagrafo {
+       
+        font-size: 12px;
+     
+    }
+    
+    .btnsaibamais {
+        top: 80%;
+        width: 200px;
+        height: 50px;
+        left: 50%; /* Centraliza horizontalmente */
+        margin-top: 10%;
+        transform: translate(-50%, -50%); /* Ajusta para o verdadeiro centro */
+        border-radius: 10px;
+        background-color: #fd3628;
+        font-family: "DM Sans", sans-serif;
+        color: azure;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 5px;
+    }
+    
+  }
+  
+  @media (max-width:375px) {
+    .quadrante05 {
+        background-color: #140101;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .container5 {
+        margin-top: -30%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgb(105, 1, 1);
+        height: 300%;
+        width: 90%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fffcfe; /* Cor da borda */
+        animation: glow 1.5s infinite alternate; /* Animação do brilho */
+    }
+    
+    
+    .dicatitulo {
+       top: -20px;
+        font-size: 20px;  
+    
+    }
+    
+    .dicaparagrafo {
+       
+        font-size: 12px;
+     
+    }
+    
+    .btnsaibamais {
+        top: 82%;
+        width: 200px;
+        height: 40px;
+        left: 50%; /* Centraliza horizontalmente */
+        margin-top: 10%;
+        transform: translate(-50%, -50%); /* Ajusta para o verdadeiro centro */
+        border-radius: 10px;
+        background-color: #fd3628;
+        font-family: "DM Sans", sans-serif;
+        color: azure;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 5px;
+    }
+    
   }

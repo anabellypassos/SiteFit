@@ -9,27 +9,30 @@
     /* Centraliza a imagem */
     width: 100%;
     /* Garante que o elemento ocupe 100% da largura */
-   height: 100vh;
+    height: 100vh;
     /* Define a altura como 100% da altura da janela */
 
 }
-.localLogoMarca{
+
+.localLogoMarca {
     cursor: pointer;
     display: flex;
     flex-direction: row;
     gap: 1%;
     padding: 10px;
 }
-.tituloAppBarPOwer{
+
+.tituloAppBarPOwer {
     color: beige;
-    font-family:'Pacifico';
+    font-family: 'Pacifico';
     letter-spacing: 2px;
     font-style: italic;
     margin-top: 7%;
     font-size: 25px;
     display: flex;
 }
-.logofooter{
+
+.logofooter {
     margin-top: 5%;
     margin-left: 6%;
     width: 100px;
@@ -44,17 +47,21 @@
     text-align: start;
     margin-top: 4%;
     margin-left: 10%;
-    font-size: 30px; /* Usa unidades responsivas para o tamanho da fonte */
-    line-height: 1.2; /* Ajusta o espaçamento vertical entre as linhas */
+    font-size: 30px;
+    /* Usa unidades responsivas para o tamanho da fonte */
+    line-height: 1.2;
+    /* Ajusta o espaçamento vertical entre as linhas */
     font-family: 'Open Sans', sans-serif;
-   
+
 }
-.imagemBanner{
+
+.imagemBanner {
     margin-right: 5%;
     float: right;
-    width: 40%; /* Ajuste o tamanho da imagem */
+    width: 40%;
+    /* Ajuste o tamanho da imagem */
     height: auto;
-    margin-top:-15%;
+    margin-top: -15%;
 }
 
 .telefone {
@@ -70,7 +77,7 @@
     color: #eeeeee;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-   
+
 }
 
 .email {
@@ -99,13 +106,153 @@
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-   
+
 }
-.whatsapp{
+
+.whatsapp {
     height: 40px;
     margin-left: 5%;
     margin-top: -3%;
-    
+
 }
 
 
+@media (max-width:1187px) {
+    .quadro07 {
+
+        height: 100vh;
+        /* Define a altura como 100% da altura da janela */
+
+    }
+
+}
+
+@media (max-width:924px) {
+    .imagemBanner {
+        margin-right: 5%;
+        float: right;
+        width: 30%;
+        /* Ajuste o tamanho da imagem */
+        height: auto;
+        margin-top: -15%;
+    }
+
+    .quadro07 {
+
+        height: 100vh;
+        /* Define a altura como 100% da altura da janela */
+
+    }
+
+
+}
+
+@media (max-width:664px) {
+    .localLogoMarca {
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        gap: 1%;
+        padding: 10px;
+    }
+
+    .tituloAppBarPOwer {
+
+        font-size: 15px;
+
+    }
+
+    .logofooter {
+
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .fale_conosco {
+
+    
+        font-size: 20px;
+       
+
+    }
+
+    .imagemBanner {
+        margin-right: 5%;
+        float: right;
+        width: 40%;
+        /* Ajuste o tamanho da imagem */
+        height: auto;
+        margin-top: -15%;
+    }
+
+    .telefone {
+        gap: 10px;
+        display: flex;
+        margin-left: 10%;
+        margin-top: 20%;
+
+
+    }
+
+    .tel {
+        color: #eeeeee;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+
+    }
+
+    .email {
+        margin-top: -2%;
+        gap: 35px;
+        display: flex;
+        margin-left: 10%;
+
+    }
+
+    .em {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+    }
+
+    .redes {
+        gap: 10px;
+        display: flex;
+        margin-left: 10%;
+
+    }
+
+    .social {
+        margin-top: -2%;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+
+    }
+
+    .whatsapp {
+        height: 40px;
+        margin-left: 5%;
+        margin-top: -3%;
+
+    }
+
+    .imagemBanner {
+        margin-right: 5%;
+        float: right;
+        width: 30%;
+        /* Ajuste o tamanho da imagem */
+        height: auto;
+        margin-top: -15%;
+    }
+
+    .quadro07 {
+
+        height: 60vh;
+        /* Define a altura como 100% da altura da janela */
+
+    }
+
+
+}

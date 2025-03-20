@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+Documentação do Projeto - Rede de Academias
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Introdução
 
-## Available Scripts
+Este é um projeto pessoal desenvolvido em React.js para demonstrar habilidades como desenvolvedora front-end. O objetivo é criar um site para uma rede de academias, incluindo informações sobre unidades, planos, treinadores e funcionalidades interativas para os usuários.
 
-In the project directory, you can run:
+Tecnologias Utilizadas
 
-### `npm start`
+React.js - Biblioteca principal para construção do front-end
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React Router - Gerenciamento de rotas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Styled Components / Tailwind CSS - Estilização do projeto
 
-### `npm test`
+Framer Motion - Animações suaves
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Jest e Testing Library - Testes unitários
 
-### `npm run build`
+Leaflet.js - Mapa interativo para localização das academias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+LocalStorage - Armazenamento do estado do Dark Mode
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Estrutura de Páginas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Home Page 🏠
 
-### `npm run eject`
+Apresentação da rede de academias
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Seção "Sobre Nós"
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Formulário de contato
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Planos e Preços 🏋️
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Listagem de planos (mensal, trimestral, anual)
 
-## Learn More
+Benefícios de cada plano
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Botão de chamada para ação (ex: "Assinar agora")
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Unidades 📍
 
-### Code Splitting
+Lista de academias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Mapa interativo com localização
 
-### Analyzing the Bundle Size
+Horários de funcionamento
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Treinadores 💪
 
-### Making a Progressive Web App
+Perfis com fotos e especialidades
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Link para agendamento de consultas ou aulas particulares
 
-### Advanced Configuration
+Blog/Dicas de Treino 📝
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Artigos sobre treinos, nutrição e bem-estar
 
-### Deployment
+Filtros por categoria (musculação, emagrecimento, alimentação)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Área do Cliente (Painel de Usuário) 🔒
 
-### `npm run build` fails to minify
+Login e cadastro
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Histórico de pagamentos
+
+Acompanhamento de progresso (gráficos, estatísticas de treino)
+
+Funcionalidades Extras
+
+✅ Dark Mode - Implementado com useState e LocalStorage
+✅ Animações - Utilização do Framer Motion para transições suaves
+✅ Testes Unitários - Testes com Jest e React Testing Library
+✅ Acessibilidade - Uso de aria-labels, contraste adequado e navegação por teclado
+
+Como Executar o Projeto
+
+Clone este repositório:
+
+Instale as dependências:
+
+Execute o projeto:
+
+Para rodar os testes:
+
+Melhorias Futuras
+
+Integração com backend para gestão de usuários e pagamentos
+
+Implementação de notificações em tempo real
+
+Recursos sociais como compartilhamento de treinos e feedbacks
+
+Este projeto foi desenvolvido com o objetivo de demonstrar habilidades em React.js e criar uma experiência intuitiva e envolvente para os usuários! 🚀
+
