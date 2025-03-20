@@ -39,3 +39,20 @@
 
 }
 
+@media (max-width: 525px) {
+  
+  .titulo {
+
+    font-size: 40px; /* Usa unidades responsivas para o tamanho da fonte */
+   
+  }
+  
+  .paragrafo {
+  margin-top: 10%;
+    font-size: 15px; /* Usa unidades responsivas para o tamanho da fonte */
+    
+  
+  
+  }
+}
+

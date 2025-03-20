@@ -17,8 +17,9 @@ function App() {
       <div id="quadrante03" className="quadrante"><Quadrante03 /></div>
       <div id="quadrante04" className="quadrante"><Quadrante04 /></div>
       <div id="quadrante05" className="quadrante"><Quadrante05 /></div>
-      <div id="quadrante06" className="quadrante"><Quadrante06 /></div>
-      <div id="footer"  className="quadrante"> <Footer /> </div>
+
+
+    
     </div>
   );
 }
