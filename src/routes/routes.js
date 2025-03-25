@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import Formulario from "../Pagesroutes/form";
+import Formulario from "../Pagesroutes/Form/form";
 import Home from "../Pagesroutes/Home/homePage";
 
 const AppRoutes = () => {

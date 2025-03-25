@@ -1,0 +1,54 @@
+/* Removendo margem e padding globais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Ajustando o logo */
+.logoform {
+    margin: 10% auto; /* Centraliza horizontalmente */
+    max-width: 20%;
+    height: auto;
+}
+
+/* Estilização do título */
+.titulologo {
+    color: black;
+    font-family: 'Pacifico', cursive; /* Certifique-se de importar a fonte */
+    letter-spacing: 2px;
+    margin-top: -20%;
+    font-size: 40px;
+    margin-left: 15%;
+}
+.info_form{
+    color: black;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight:600;
+    width: 30%; /* Ajuste a largura conforme necessário */
+    word-wrap: break-word; /* Quebra o texto automaticamente quando necessário */
+    
+}
+
+
+.container_form {
+    display: flex;
+    flex-direction: column; /* Isso pode ser ajustado conforme a necessidade */
+    margin-left: 55%; /* Adiciona margem entre os elementos */
+    margin-top: -20%;
+    font-size: 10px;
+    box-sizing: border-box;
+    width: 35%;
+    border: solid gray 2px;
+    border-radius: 10px;
+    padding: 2%;
+   
+    
+}
+ 
+.titulo_form{
+align-self: center;
+}
