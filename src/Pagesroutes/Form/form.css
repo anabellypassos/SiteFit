@@ -1,54 +1,152 @@
-/* Removendo margem e padding globais */
+/* Reset global */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
-/* Ajustando o logo */
-.logoform {
-    margin: 10% auto; /* Centraliza horizontalmente */
-    max-width: 20%;
-    height: auto;
+/* Estilização do AppBar */
+.app-bar {
+    position: fixed;
+    top: 0;
+}
+
+/* Página do formulário */
+.form-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 140vh;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 70px; /* Para não cobrir o conteúdo */
+    overflow-x: auto;
+}
+
+/* O conteúdo fica abaixo do AppBar */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-width: 320px;
+    max-width: 600px;
+    margin-top: 20px;
 }
 
 /* Estilização do título */
 .titulologo {
     color: black;
-    font-family: 'Pacifico', cursive; /* Certifique-se de importar a fonte */
+    font-family: 'Pacifico', cursive;
     letter-spacing: 2px;
-    margin-top: -20%;
     font-size: 40px;
-    margin-left: 15%;
+    margin-top: 15%;
+    margin-bottom: 5px;
+    text-align: center;
 }
-.info_form{
+
+/* Informação do formulário */
+.info_form {
     color: black;
-    margin-left: 10%;
-    margin-top: 2%;
-    font-size: 20px;
-    font-weight:600;
-    width: 30%; /* Ajuste a largura conforme necessário */
-    word-wrap: break-word; /* Quebra o texto automaticamente quando necessário */
-    
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 400px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-
+/* Container do formulário */
 .container_form {
     display: flex;
-    flex-direction: column; /* Isso pode ser ajustado conforme a necessidade */
-    margin-left: 55%; /* Adiciona margem entre os elementos */
-    margin-top: -20%;
-    font-size: 10px;
-    box-sizing: border-box;
-    width: 35%;
-    border: solid gray 2px;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha os inputs e labels à esquerda */
+    background: #fff;
+    padding: 20px;
     border-radius: 10px;
-    padding: 2%;
-   
-    
+    border: 2px solid gray;
+    width: 100%;
+    max-width: 400px;
+    min-width: 550px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
- 
-.titulo_form{
-align-self: center;
+
+/* Título do formulário */
+.titulo_form {
+    text-align: center; /* Centraliza o título */
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%; /* Garante alinhamento central */
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+/* Estilização dos inputs */
+label {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column; /* Mantém label acima do input */
+    align-items: flex-start; /* Alinha à esquerda */
+    text-align: left; /* Evita centralização */
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+input, textarea {
+    align-content: flex-start;
+    align-items: start;
+    width: 160%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Botão de envio */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .titulologo {
+        font-size: 32px;
+    }
+
+    .container_form {
+        width: 90%;
+        min-width: 280px;
+    }
+
+    .info_form {
+        font-size: 16px;
+        width: 90%;
+    }
 }

@@ -1,36 +1,40 @@
 import React from 'react';
 import AppBar from '../../Pages/AppBar/appBar';
 import formstyle from '../Form/form.css';
-import logo from '../../images/imagemcelular/logo.png';
 
-const form = () => {
+const Form = () => {
   return (
-    <div>
+    <div className="form-page">
       <AppBar />
 
-      <div className='row_form'>
-        <img className='logoform' src={logo} alt="Logo" />
-        <h1 className='titulologo'>PowerFit</h1>
-        <p className='info_form'>Preencha este formulário e entraremos em contato para tirar todas as suas dúvidas! </p>
-        <div className='container_form'>
-          <h1 className='titulo_form'>Boas vindas ao espaço para você tirar dúvidas!</h1>
-          <label>Digite o seu e-mail:</label>
-            <input className='email'id='email' type='text' placeholder='antonio123@gmail.com'></input>
-    
-        <label>Digite o seu nome completo :</label>
-            <input className='nomeCompleto'id='nomeCompleto' type='text' placeholder='Antonio Carlos de Neves'></input>
-        
-        <label>Telefone:</label>
-            <input className='telefone'id='telefone' type='text' placeholder='antonio123@gmail.com'></input>
+      <div className="content">
+        <h1 className="titulologo">PowerFit</h1>
+        <p className="info_form">
+          Preencha este formulário e entraremos em contato para tirar todas as suas dúvidas!
+        </p>
+
+        <div className="container_form">
+          <h1 className="titulo_form">Boas-vindas ao espaço para tirar dúvidas!</h1>
+
+          <form>
+            <label htmlFor="email">Digite o seu e-mail:</label>
+            <input className="emailform" id="email" type="email" placeholder="antonio123@gmail.com" />
+
+            <label htmlFor="nomeCompletoform">Digite o seu nome completo:</label>
+            <input className="nomeCompleto" id="nomeCompleto" type="text" placeholder="Antonio Carlos de Neves" />
+
+            <label htmlFor="telefone">Telefone:</label>
+            <input className="telefoneform" id="telefone" type="tel" placeholder="(11) 99999-9999" />
+
+            <label htmlFor="duvida">Digite sua dúvida:</label>
+            <textarea className="duvida" id="duvida" placeholder="Descreva sua dúvida aqui..." rows="4"></textarea>
+
+            <button type="submit" className="btn-enviar">Enviar</button>
+          </form>
         </div>
-        </div>
-   
-        
-
-
-
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default form
+export default Form;
