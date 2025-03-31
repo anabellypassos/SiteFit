@@ -10,7 +10,7 @@ React.js - Biblioteca principal para construção do front-end
 
 React Router - Gerenciamento de rotas
 
-Styled Components / Tailwind CSS - Estilização do projeto
+Styled Components / CSS - Estilização do projeto
 
 Framer Motion - Animações suaves
 

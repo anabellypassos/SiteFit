@@ -64,14 +64,16 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Alinha os inputs e labels à esquerda */
-    background: #fff;
+    background-color: rgb(105, 1, 1);
     padding: 20px;
-    border-radius: 10px;
-    border: 2px solid gray;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
     width: 100%;
     max-width: 400px;
     min-width: 550px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    animation: glow 1.5s infinite alternate;
+
 }
 
 /* Título do formulário */
@@ -80,18 +82,20 @@
     font-size: 20px;
     font-weight: bold;
     width: 100%; /* Garante alinhamento central */
+    color: #f5f5f5;
     margin-top: 5%;
     margin-bottom: 20px;
 }
 
 /* Estilização dos inputs */
 label {
+    color:#f5f5f5;
     font-weight: bold;
     display: flex;
     flex-direction: column; /* Mantém label acima do input */
     align-items: flex-start; /* Alinha à esquerda */
     text-align: left; /* Evita centralização */
-    margin-top: 10px;
+    margin-top: 10%;
     width: 100%;
 }
 
@@ -99,7 +103,7 @@ label {
 input, textarea {
     align-content: flex-start;
     align-items: start;
-    width: 160%;
+    width: 175%;
     padding: 15px;
     margin-top: 10px;
     border: 1px solid #ccc;
@@ -108,7 +112,7 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border-color: #007bff;
+    border-color: #0a0a0a;
     outline: none;
 }
 
@@ -118,22 +122,38 @@ textarea {
 
 /* Botão de envio */
 button {
-    background-color: #007bff;
+    background-color: #ff0909;
     color: white;
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%;
+    width: 175%;
     margin-top: 15px;
     font-size: 16px;
 }
-
+.error {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    margin-top: 5px;
+  }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #9e5959;
 }
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px #8d0202;
+    }
 
+    50% {
+        box-shadow: 0 0 20px #910c03, 0 0 30px #f51b0c;
+    }
+
+    100% {
+        box-shadow: 0 0 10px #fa0505;
+    }
+}
 /* Responsividade */
 @media (max-width: 768px) {
     .titulologo {
