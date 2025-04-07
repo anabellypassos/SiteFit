@@ -32,7 +32,7 @@ const Quadrante01 = () => {
 
           </p>
           <Link to='/Formulario'>
-            <button className='infobutton'>CADASTRE-SE</button>
+            <button className='infobutton'>DÚVIDAS</button>
           </Link>
         </div>
 

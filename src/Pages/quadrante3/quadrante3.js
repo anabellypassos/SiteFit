@@ -3,7 +3,8 @@ import '../quadrante3/quadrante3.css';
 import homemPeso from '../quadrante3/imagensquadrante3/homemcoPeso.png';
 import bicicleta from '../quadrante3/imagensquadrante3/bicicleta.png';
 import esteira from '../quadrante3/imagensquadrante3/esteira.png';
-
+import { Link } from 'react-router-dom';
+import planoseprecos from '../../Pagesroutes/PlanosEPrecos/planoseprecos';
 
 const Quadrante3 = () => {
   return (
@@ -37,11 +38,14 @@ const Quadrante3 = () => {
           <p>Horários estendidos para treinar quando quiser.   </p>
           <p>App exclusivo para agendamento de aulas e acompanhamento de progresso.</p>
           <p>Opções de planos mensais, trimestrais e anuais sem burocracia.</p>
-
+  
 
 
 
         </div>
+        <Link to={'/planoseprecos'}>
+        <button className='infobutton3'>PLANOS E PREÇOS</button>
+        </Link>
 
 
       </div>

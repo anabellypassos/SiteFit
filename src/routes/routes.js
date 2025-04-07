@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Formulario from "../Pagesroutes/Form/form";
 import Home from "../Pagesroutes/Home/homePage";
+import Formulario from "../Pagesroutes/Form/form";
+import Planoseprecos from "../Pagesroutes/PlanosEPrecos/planoseprecos";
 
 const AppRoutes = () => {
     return (
@@ -9,6 +10,7 @@ const AppRoutes = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Formulario" element={<Formulario/>} />
+                <Route path="/PlanosePrecos" element={<Planoseprecos/>}/>
             </Routes>
         </BrowserRouter>
     );

@@ -12,7 +12,6 @@ React Router - Gerenciamento de rotas
 
 Styled Components / CSS - Estilização do projeto
 
-Framer Motion - Animações suaves
 
 Jest e Testing Library - Testes unitários
 
