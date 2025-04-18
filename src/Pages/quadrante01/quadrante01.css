@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +5,7 @@
 }
 
 .containerQuadrante01 {
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     background-image: url("imageq1/crossfit-534615_1280.jpg");
     background-repeat: no-repeat;
@@ -21,11 +20,10 @@
     padding: 10px;
     width: 100%;
     height: 110vh;
-    text-align: center;
+    text-align: start;
 }
 
-
-/* Filtro vermelho */
+/* Filtro escuro sobre a imagem */
 .containerQuadrante01::before {
     content: "";
     position: absolute;
@@ -33,88 +31,60 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.719); /* Vermelho com transparência */
+    background-color: rgba(0, 0, 0, 0.904);
     z-index: 1;
 }
 
-/* Para garantir que os elementos dentro do container fiquem acima do filtro */
+/* Elementos acima do filtro */
 .containerQuadrante01 > * {
     position: relative;
     z-index: 2;
 }
 
-
-
-.Texto1{
+.Texto1 {
     letter-spacing: 10px;
     font-family: "DM Sans", sans-serif;
-    font-weight: 600;
+    font-weight:bold;
     color: beige;
-    font-size: 50px;
+    font-size: 100px;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    white-space:5px;
-    text-align: center;
+    text-align: start;
     margin-top: 10%;
-    /* Ajusta o tamanho do texto ao contêiner */
+     margin-left: -30%;
 }
 
-.Texto2{
-    font-family: 'Open Sans', sans-serif;
-    color: beige;
-    letter-spacing: 5px;
-    font-size: 60px;
-    font-weight:bold ;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    white-space: normal;
-    text-align: center;
-    margin-top: 1%;
-    text-shadow: rgba(255, 5, 5, 0.699) 0.1em 0.1em 0.2em;
-    /* Ajusta o tamanho do texto ao contêiner */
-}
-.treino{
-    color: red;
-    text-shadow: rgba(0, 0, 0, 0.699) 0.1em 0.1em 0.2em;
-
-    
-}
 
 
 .pargrafo_quadrante1 {
-    letter-spacing: 10px;
+    letter-spacing: 1px;
     font-family: "DM Sans", sans-serif;
-    font-weight: 600;
+    font-weight:300;
     color: beige;
-    font-size: 40px;
-    word-wrap: break-word; /* Quebra palavras longas automaticamente */
-    overflow-wrap: break-word; /* Garante a quebra dentro do contêiner */
-    white-space: normal; /* Deixe o texto quebrar normalmente */
-    text-align: center;
+    font-size: 30px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: start;
     margin-top: 1%;
-    word-break: break-word; /* Usa quebra de palavra, quebra as palavras quando necessário */
+    word-break: break-word;
+    margin-left: -30%;
 }
-
-
 
 .infobutton {
     cursor: pointer;
-    position: absolute;
+    position: relative;
     width: 600px;
     height: 70px;
-    left: 50%; /* Centraliza horizontalmente */
-    margin-top: 10%;
-    transform: translate(-50%, -50%); /* Ajusta para o verdadeiro centro */
     border-radius: 10px;
     background-color: #fd3628;
     font-family: "DM Sans", sans-serif;
     color: azure;
     font-size: 25px;
     font-weight: 600;
-    letter-spacing: 5px;
+    margin-top: 10%;
+    align-self: flex-start;
+    margin-left: -30%;
 }
-
-
 
 .infobutton:before {
     content: '';
@@ -134,7 +104,7 @@
 }
 
 .infobutton:active {
-    color: #000
+    color: #000;
 }
 
 .infobutton:active:after {
@@ -158,138 +128,95 @@
 }
 
 @keyframes glowing {
-    0% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 400% 0;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
 }
 
-
-
+/* RESPONSIVO */
 
 @media (max-width: 1345px) {
     .infobutton {
         width: 60%;
-        height: 20%;
+        height: 60px;
         font-size: 20px;
         margin-top: 6%;
-    
     }
-
 }
+
 @media (max-width: 885px) {
     .infobutton {
         width: 60%;
-        height: 20%;
+        height: 60px;
         font-size: 20px;
         margin-top: 10%;
-    
     }
-
 }
 
 @media (max-width: 660px) {
     .containerQuadrante01 {
-        height: 130vh;
-    }
-    .Texto1{
-       margin-left: 2%;
-       margin-right: 2%;
-        font-size: 40px;
-    }
-    .Texto2{
-        font-size: 40px;
-    
+        height: auto;
     }
 
-    
-    
+    .Texto1 {
+        font-size: 40px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .Texto2 {
+        font-size: 40px;
+    }
+
     .pargrafo_quadrante1 {
-        margin-left: 10%;
-        margin-left: 10%;
         font-size: 25px;
         margin-top: 5%;
-       
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
-.infobutton {
-    width: 60%;
-    height: 20%;
-    font-size: 20px;
-    margin-top: 20%;
-
+    .infobutton {
+        width: 80%;
+        height: 60px;
+        font-size: 20px;
+        margin-top: 15%;
+    }
 }
 
-  }
-  
-  @media (max-width: 480px) {
-    .containerQuadrante01 {
-        height: 130vh;
-    }
-    .Texto1{
-
+@media (max-width: 480px) {
+    .Texto1 {
         font-size: 30px;
     }
-    .Texto2{
+
+    .Texto2 {
         font-size: 30px;
-    
     }
 
-    
-    
     .pargrafo_quadrante1 {
-    margin-top: 10%;
         font-size: 20px;
         letter-spacing: 5px;
-
-
+        margin-top: 10%;
     }
 
-.infobutton {
-    margin-top: 25%;
-    width: 60%;
-    height: 20%;
-    font-size: 15px;
-
-}
-
+    .infobutton {
+        font-size: 15px;
+        width: 80%;
+        margin-top: 20%;
+    }
 }
 
 @media (max-width: 320px) {
-    .containerQuadrante01 {
-        height: 130vh;
-    }
-    .Texto1{
-
-        font-size: 30px;
-    }
-    .Texto2{
-        font-size: 30px;
-    
+    .Texto1,
+    .Texto2 {
+        font-size: 28px;
     }
 
-    
-    
     .pargrafo_quadrante1 {
-    margin-top: 10%;
-        font-size: 20px;
-        letter-spacing: 5px;
-
-
+        font-size: 18px;
     }
 
-.infobutton {
-    width: 60%;
-    height: 20%;
-    font-size: 15px;
-
-}
-
+    .infobutton {
+        font-size: 14px;
+        width: 90%;
+    }
 }

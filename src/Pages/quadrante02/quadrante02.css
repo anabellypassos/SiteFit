@@ -1,58 +1,165 @@
 .quadro2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.938), rgba(0, 0, 0, 0.5)), url("../../images/fundo.png");
-  background-size: cover; /* Faz a imagem cobrir toda a área */
-  background-repeat: no-repeat; /* Evita repetição da imagem */
-  background-position: center; /* Centraliza a imagem */
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   position: relative;
-  width: 100%; /* Garante que o elemento ocupe 100% da largura */
-  height: 110vh; /* Define a altura como 100% da altura da janela */
-  overflow: hidden; /* Evita rolagem desnecessária */
-  display: flex; /* Ativa o flexbox */
-  flex-direction: column; /* Alinha itens verticalmente */
-  align-items: center; /* Centraliza conteúdo horizontalmente */
-  justify-content: center; /* Centraliza conteúdo verticalmente */
- 
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Centraliza todo o texto */
 }
 
 .titulo {
-  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
-  color: #ff0000;
-  text-align: center;
-  font-size: 50px; /* Usa unidades responsivas para o tamanho da fonte */
-  line-height: 1.2; /* Ajusta o espaçamento vertical entre as linhas */
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 1.2;
   font-family: 'Open Sans', sans-serif;
-  margin-top: 5%;
+  margin-top: 1%;
+  text-align: center; /* Garante que o texto esteja centralizado */
 }
 
-.paragrafo {
-  padding:10% ;
-  color: #ffffff;
-  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.10em;
-  letter-spacing: 1px;
-  font-weight: bold;
+.containers-planos {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  flex-wrap: wrap; /* Permite que os blocos quebrem linha em telas pequenas */
+}
+.fidelidade{
+  font-size: 15px;
+  width: 100%; /* Garante que ocupe toda a largura do container pai */
   text-align: center;
-  font-size: 20px; /* Usa unidades responsivas para o tamanho da fonte */
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.5; /* Ajusta o espaçamento vertical entre as linhas */
-  margin-top: -6%;
 
+}
+.mensal,
+.trimestral,
+.anual {
+  margin-top: 5%;
+  color: white;
+  box-sizing: border-box;
+  width: 25%;
+  border: solid gray 2px;
+  border-radius: 10px;
+  padding: 2%;
+  animation: glow 1.5s infinite alternate;
+  text-align: center; /* Garante centralização de texto dentro de cada plano */
+}
 
+.mensal-titulos,
+.mensal-trimestral,
+.mensal-anual,
+.valor-mensal,
+.valor-trimestral,
+.valor-anual {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.valor-mensal,
+.valor-trimestral,
+.valor-anual {
+  font-weight: bolder;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.acesso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  width: 100%; /* Garante que ocupe toda a largura do container pai */
+}
+.contratar {
+
+  cursor: pointer;
+  position: relative;
+  width: 250px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #fd3628;
+  font-family: "DM Sans", sans-serif;
+  color: azure;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10%;
+  align-self: center;
+
+}
+
+.contratar:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ffffff);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.contratar:active {
+  color: #000;
+}
+
+.contratar:active:after {
+  background: transparent;
+}
+
+.contratar:hover:before {
+  opacity: 1;
+}
+
+.contratar:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+@media (max-width: 768px) {
+  .containers-planos {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .mensal,
+  .trimestral,
+  .anual {
+    width: 80%;
+  }
 }
 
 @media (max-width: 525px) {
-  
   .titulo {
-
-    font-size: 40px; /* Usa unidades responsivas para o tamanho da fonte */
-   
+    font-size: 40px;
   }
-  
+
   .paragrafo {
-  margin-top: 10%;
-    font-size: 15px; /* Usa unidades responsivas para o tamanho da fonte */
-    
-  
-  
+    margin-top: 10%;
+    font-size: 15px;
+    text-align: center;
   }
 }
-

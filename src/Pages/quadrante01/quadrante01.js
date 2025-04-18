@@ -18,21 +18,19 @@ const Quadrante01 = () => {
         <div className='quadrante1'>
 
           <h1 className='Texto1'>
-            <div>Intensifique o seu
+            <div>Transforme-se <br></br> Hoje
             </div>
 
           </h1>
 
-          <p class="Texto2">
-            <span class="treino">Treino</span> conosco!
-          </p>
+          
           <p className='pargrafo_quadrante1'>
-            <div>Faça do movimento parte do seu dia </div>
+            <div>Treinos moderno,estrutura top. Você no seu melhor! </div>
 
 
           </p>
           <Link to='/Formulario'>
-            <button className='infobutton'>DÚVIDAS</button>
+            <button className='infobutton'>COMECE AGORA</button>
           </Link>
         </div>
 

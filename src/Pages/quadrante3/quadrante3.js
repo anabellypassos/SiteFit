@@ -10,7 +10,7 @@ const Quadrante3 = () => {
   return (
     <div className='container'>
 
-      <h1 className='titlePrincipaisrecursos'>Principais recursos</h1>
+      <h1 className='titlePrincipaisrecursos'>TIPOS DE TREINO</h1>
 
       <div className='imagens'>
         <img className='homemPeso' src={homemPeso} alt='homemPeso'></img>
